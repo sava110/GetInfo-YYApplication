@@ -12,7 +12,7 @@
                 "changelogHash": "sha256:bbdb1b474277c1dc8d5c730567491900fe8efb6736aa73a24a6158c58666a551",
                 "fetchedAt": "2026-09-28T02:25:15Z"
             },
-            "lastCheckedAt": "2026-10-04T18:33:53Z",
+            "lastCheckedAt": "2026-10-05T21:53:53Z",
             "lastError": null,
             "history": [
                 {
@@ -38,7 +38,7 @@
                 "changelogHash": "sha256:c19f7de8239d4d893e27003e29552ca849c2fca0ca0ceac571229d6cfe56c4a6",
                 "fetchedAt": "2026-09-29T21:53:44Z"
             },
-            "lastCheckedAt": "2026-10-04T18:33:53Z",
+            "lastCheckedAt": "2026-10-05T21:53:53Z",
             "lastError": null,
             "history": [
                 {
@@ -74,7 +74,7 @@
                 "changelogHash": "sha256:abdcccfdd7ad4f8642e3602fa2fd193653c07b91e58a18ad6ee78efcd3600601",
                 "fetchedAt": "2026-09-28T02:33:32Z"
             },
-            "lastCheckedAt": "2026-10-04T18:33:59Z",
+            "lastCheckedAt": "2026-10-05T21:53:59Z",
             "lastError": null,
             "history": [
                 {
@@ -100,7 +100,7 @@
                 "changelogHash": "sha256:b8ace56fbf54d36415470556551a4d25a10bc4c56ee1346b4bf2edb41ef5571d",
                 "fetchedAt": "2026-09-29T01:01:55Z"
             },
-            "lastCheckedAt": "2026-10-04T18:33:54Z",
+            "lastCheckedAt": "2026-10-05T21:53:54Z",
             "lastError": null,
             "history": [
                 {
@@ -130,13 +130,13 @@
             "url": "https://apps.apple.com/jp/app/yy%E6%96%87%E5%AD%97%E8%B5%B7%E3%81%93%E3%81%97-%E9%AB%98%E6%80%A7%E8%83%BD%E3%81%A7%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%AA%E6%96%87%E5%AD%97%E8%B5%B7%E3%81%93%E3%81%97%E3%82%A2%E3%83%97%E3%83%AA/id1570419146?uo=4",
             "developer": "EQUOS RESEARCH CO.,LTD.",
             "latest": {
-                "version": "18.20.17",
-                "updated": 1790699111,
-                "recentChanges": "本バージョンでは下記対応を行いました。\n・内部処理の改善",
-                "changelogHash": "sha256:88e5c2c1645820188a399df564a426ac63faf174ff1bd6e5b69f811abeaeaae1",
-                "fetchedAt": "2026-09-29T21:53:47Z"
+                "version": "18.21.1",
+                "updated": 1791132844,
+                "recentChanges": "本バージョンでは下記対応を行いました。\n・音声認識内部的なベース環境の更新",
+                "changelogHash": "sha256:4624d1e2baed8b8037a609dd1c26fe8c7d731df9e8a3babfc80c6620045469f6",
+                "fetchedAt": "2026-10-05T21:53:55Z"
             },
-            "lastCheckedAt": "2026-10-04T18:33:56Z",
+            "lastCheckedAt": "2026-10-05T21:53:55Z",
             "lastError": null,
             "history": [
                 {
@@ -158,6 +158,16 @@
                     "fetchedAt": "2026-09-29T21:53:47Z",
                     "gapSuspected": false,
                     "versionCompare": "parsed"
+                },
+                {
+                    "version": "18.21.1",
+                    "previousVersion": "18.20.17",
+                    "updated": 1791132844,
+                    "recentChanges": "本バージョンでは下記対応を行いました。\n・音声認識内部的なベース環境の更新",
+                    "changelogHash": "sha256:4624d1e2baed8b8037a609dd1c26fe8c7d731df9e8a3babfc80c6620045469f6",
+                    "fetchedAt": "2026-10-05T21:53:55Z",
+                    "gapSuspected": true,
+                    "versionCompare": "parsed"
                 }
             ]
         },
@@ -172,7 +182,7 @@
                 "changelogHash": "sha256:fe3d3076e8d33ed46aed55ddaa4f60c632129cff9b4971250b211de6afbc3320",
                 "fetchedAt": "2026-09-29T01:01:58Z"
             },
-            "lastCheckedAt": "2026-10-04T18:33:57Z",
+            "lastCheckedAt": "2026-10-05T21:53:56Z",
             "lastError": null,
             "history": [
                 {
