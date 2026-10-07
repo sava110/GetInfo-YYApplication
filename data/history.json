@@ -12,7 +12,7 @@
                 "changelogHash": "sha256:bbdb1b474277c1dc8d5c730567491900fe8efb6736aa73a24a6158c58666a551",
                 "fetchedAt": "2026-09-28T02:25:15Z"
             },
-            "lastCheckedAt": "2026-10-06T20:05:21Z",
+            "lastCheckedAt": "2026-10-07T20:30:20Z",
             "lastError": null,
             "history": [
                 {
@@ -32,13 +32,13 @@
             "url": "https://play.google.com/store/apps/details?id=yytranscript.yysystem.android&hl=ja&gl=jp",
             "developer": "YYSYSTEM",
             "latest": {
-                "version": "2.8.4",
-                "updated": 1790576726,
-                "recentChanges": "以下の内容に対応しています。\n・AiLENSの表示領域を上下を選択できるように変更\n・ダークモードのキーボード発言のテキスト領域が見づらい不具合修正",
-                "changelogHash": "sha256:c19f7de8239d4d893e27003e29552ca849c2fca0ca0ceac571229d6cfe56c4a6",
-                "fetchedAt": "2026-09-29T21:53:44Z"
+                "version": "2.8.6",
+                "updated": 1791254411,
+                "recentChanges": "以下の内容に対応しています。\n・イコライザー表示時のフェールセーフを追加\n・AIアシスタントが動作しない不具合修正\n・スクロールの挙動の安定化",
+                "changelogHash": "sha256:08f0be59031c3b10847359347c11349fb3a0b83afaf13d70da72488c06a5d8ab",
+                "fetchedAt": "2026-10-07T20:30:20Z"
             },
-            "lastCheckedAt": "2026-10-06T20:05:21Z",
+            "lastCheckedAt": "2026-10-07T20:30:20Z",
             "lastError": null,
             "history": [
                 {
@@ -60,6 +60,16 @@
                     "fetchedAt": "2026-09-29T21:53:44Z",
                     "gapSuspected": true,
                     "versionCompare": "parsed"
+                },
+                {
+                    "version": "2.8.6",
+                    "previousVersion": "2.8.4",
+                    "updated": 1791254411,
+                    "recentChanges": "以下の内容に対応しています。\n・イコライザー表示時のフェールセーフを追加\n・AIアシスタントが動作しない不具合修正\n・スクロールの挙動の安定化",
+                    "changelogHash": "sha256:08f0be59031c3b10847359347c11349fb3a0b83afaf13d70da72488c06a5d8ab",
+                    "fetchedAt": "2026-10-07T20:30:20Z",
+                    "gapSuspected": true,
+                    "versionCompare": "parsed"
                 }
             ]
         },
@@ -74,7 +84,7 @@
                 "changelogHash": "sha256:abdcccfdd7ad4f8642e3602fa2fd193653c07b91e58a18ad6ee78efcd3600601",
                 "fetchedAt": "2026-09-28T02:33:32Z"
             },
-            "lastCheckedAt": "2026-10-06T20:05:28Z",
+            "lastCheckedAt": "2026-10-07T20:30:26Z",
             "lastError": null,
             "history": [
                 {
@@ -94,13 +104,13 @@
             "url": "https://apps.apple.com/jp/app/yyprobe-%E4%BC%9A%E8%A9%B1%E3%81%AE%E5%8F%AF%E8%A6%96%E5%8C%96%E3%82%A2%E3%83%97%E3%83%AA/id1493896577?uo=4",
             "developer": "EQUOS RESEARCH CO.,LTD.",
             "latest": {
-                "version": "9.6.35",
-                "updated": 1790626583,
-                "recentChanges": "本バージョンでは下記対応を行いました。\n・サイレンや鳴き声などの音を検出し、オノマトペで表示する機能を追加しました",
-                "changelogHash": "sha256:b8ace56fbf54d36415470556551a4d25a10bc4c56ee1346b4bf2edb41ef5571d",
-                "fetchedAt": "2026-09-29T01:01:55Z"
+                "version": "9.6.38",
+                "updated": 1791323473,
+                "recentChanges": "本バージョンでは下記対応を行いました。\n\n・会議参加者の発言が、発言の途中でもAiLENSに表示されるようになりました。",
+                "changelogHash": "sha256:ff148e52f5543fed55c63a9d71586e803382026fa3e4d0bb78f2e95a76bfbdbb",
+                "fetchedAt": "2026-10-07T20:30:22Z"
             },
-            "lastCheckedAt": "2026-10-06T20:05:23Z",
+            "lastCheckedAt": "2026-10-07T20:30:22Z",
             "lastError": null,
             "history": [
                 {
@@ -122,6 +132,16 @@
                     "fetchedAt": "2026-09-29T01:01:55Z",
                     "gapSuspected": false,
                     "versionCompare": "parsed"
+                },
+                {
+                    "version": "9.6.38",
+                    "previousVersion": "9.6.35",
+                    "updated": 1791323473,
+                    "recentChanges": "本バージョンでは下記対応を行いました。\n\n・会議参加者の発言が、発言の途中でもAiLENSに表示されるようになりました。",
+                    "changelogHash": "sha256:ff148e52f5543fed55c63a9d71586e803382026fa3e4d0bb78f2e95a76bfbdbb",
+                    "fetchedAt": "2026-10-07T20:30:22Z",
+                    "gapSuspected": true,
+                    "versionCompare": "parsed"
                 }
             ]
         },
@@ -130,13 +150,13 @@
             "url": "https://apps.apple.com/jp/app/yy%E6%96%87%E5%AD%97%E8%B5%B7%E3%81%93%E3%81%97-%E9%AB%98%E6%80%A7%E8%83%BD%E3%81%A7%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%AA%E6%96%87%E5%AD%97%E8%B5%B7%E3%81%93%E3%81%97%E3%82%A2%E3%83%97%E3%83%AA/id1570419146?uo=4",
             "developer": "EQUOS RESEARCH CO.,LTD.",
             "latest": {
-                "version": "18.21.1",
-                "updated": 1791132844,
-                "recentChanges": "本バージョンでは下記対応を行いました。\n・音声認識内部的なベース環境の更新",
-                "changelogHash": "sha256:4624d1e2baed8b8037a609dd1c26fe8c7d731df9e8a3babfc80c6620045469f6",
-                "fetchedAt": "2026-10-05T21:53:55Z"
+                "version": "18.21.2",
+                "updated": 1791313952,
+                "recentChanges": "本バージョンでは下記対応を行いました。\n・対面モードの画面分割で、それぞれの画面に対応する言語のみ表示するように改善\n・iOSオフライン音声認識における言語選択の安定性を向上",
+                "changelogHash": "sha256:e02a9d68dba5ef61ef5e3b6938478757b75c48c263ce0682a0c1a72707f942cb",
+                "fetchedAt": "2026-10-07T20:30:23Z"
             },
-            "lastCheckedAt": "2026-10-06T20:05:24Z",
+            "lastCheckedAt": "2026-10-07T20:30:23Z",
             "lastError": null,
             "history": [
                 {
@@ -168,6 +188,16 @@
                     "fetchedAt": "2026-10-05T21:53:55Z",
                     "gapSuspected": true,
                     "versionCompare": "parsed"
+                },
+                {
+                    "version": "18.21.2",
+                    "previousVersion": "18.21.1",
+                    "updated": 1791313952,
+                    "recentChanges": "本バージョンでは下記対応を行いました。\n・対面モードの画面分割で、それぞれの画面に対応する言語のみ表示するように改善\n・iOSオフライン音声認識における言語選択の安定性を向上",
+                    "changelogHash": "sha256:e02a9d68dba5ef61ef5e3b6938478757b75c48c263ce0682a0c1a72707f942cb",
+                    "fetchedAt": "2026-10-07T20:30:23Z",
+                    "gapSuspected": false,
+                    "versionCompare": "parsed"
                 }
             ]
         },
@@ -182,7 +212,7 @@
                 "changelogHash": "sha256:fe3d3076e8d33ed46aed55ddaa4f60c632129cff9b4971250b211de6afbc3320",
                 "fetchedAt": "2026-09-29T01:01:58Z"
             },
-            "lastCheckedAt": "2026-10-06T20:05:26Z",
+            "lastCheckedAt": "2026-10-07T20:30:24Z",
             "lastError": null,
             "history": [
                 {
