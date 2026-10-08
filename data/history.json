@@ -12,7 +12,7 @@
                 "changelogHash": "sha256:bbdb1b474277c1dc8d5c730567491900fe8efb6736aa73a24a6158c58666a551",
                 "fetchedAt": "2026-09-28T02:25:15Z"
             },
-            "lastCheckedAt": "2026-10-07T20:30:20Z",
+            "lastCheckedAt": "2026-10-08T20:34:23Z",
             "lastError": null,
             "history": [
                 {
@@ -38,7 +38,7 @@
                 "changelogHash": "sha256:08f0be59031c3b10847359347c11349fb3a0b83afaf13d70da72488c06a5d8ab",
                 "fetchedAt": "2026-10-07T20:30:20Z"
             },
-            "lastCheckedAt": "2026-10-07T20:30:20Z",
+            "lastCheckedAt": "2026-10-08T20:34:23Z",
             "lastError": null,
             "history": [
                 {
@@ -84,7 +84,7 @@
                 "changelogHash": "sha256:abdcccfdd7ad4f8642e3602fa2fd193653c07b91e58a18ad6ee78efcd3600601",
                 "fetchedAt": "2026-09-28T02:33:32Z"
             },
-            "lastCheckedAt": "2026-10-07T20:30:26Z",
+            "lastCheckedAt": "2026-10-08T20:34:29Z",
             "lastError": null,
             "history": [
                 {
@@ -104,13 +104,13 @@
             "url": "https://apps.apple.com/jp/app/yyprobe-%E4%BC%9A%E8%A9%B1%E3%81%AE%E5%8F%AF%E8%A6%96%E5%8C%96%E3%82%A2%E3%83%97%E3%83%AA/id1493896577?uo=4",
             "developer": "EQUOS RESEARCH CO.,LTD.",
             "latest": {
-                "version": "9.6.38",
-                "updated": 1791323473,
-                "recentChanges": "本バージョンでは下記対応を行いました。\n\n・会議参加者の発言が、発言の途中でもAiLENSに表示されるようになりました。",
-                "changelogHash": "sha256:ff148e52f5543fed55c63a9d71586e803382026fa3e4d0bb78f2e95a76bfbdbb",
-                "fetchedAt": "2026-10-07T20:30:22Z"
+                "version": "9.6.39",
+                "updated": 1791481302,
+                "recentChanges": "本バージョンでは下記対応を行いました。\n・翻訳機能の品質改善",
+                "changelogHash": "sha256:5e893e88a4119a551743e0c43b62a99c8a8e1dc564186389bb6ec5788f3377e3",
+                "fetchedAt": "2026-10-08T20:34:24Z"
             },
-            "lastCheckedAt": "2026-10-07T20:30:22Z",
+            "lastCheckedAt": "2026-10-08T20:34:24Z",
             "lastError": null,
             "history": [
                 {
@@ -142,6 +142,16 @@
                     "fetchedAt": "2026-10-07T20:30:22Z",
                     "gapSuspected": true,
                     "versionCompare": "parsed"
+                },
+                {
+                    "version": "9.6.39",
+                    "previousVersion": "9.6.38",
+                    "updated": 1791481302,
+                    "recentChanges": "本バージョンでは下記対応を行いました。\n・翻訳機能の品質改善",
+                    "changelogHash": "sha256:5e893e88a4119a551743e0c43b62a99c8a8e1dc564186389bb6ec5788f3377e3",
+                    "fetchedAt": "2026-10-08T20:34:24Z",
+                    "gapSuspected": false,
+                    "versionCompare": "parsed"
                 }
             ]
         },
@@ -156,7 +166,7 @@
                 "changelogHash": "sha256:e02a9d68dba5ef61ef5e3b6938478757b75c48c263ce0682a0c1a72707f942cb",
                 "fetchedAt": "2026-10-07T20:30:23Z"
             },
-            "lastCheckedAt": "2026-10-07T20:30:23Z",
+            "lastCheckedAt": "2026-10-08T20:34:25Z",
             "lastError": null,
             "history": [
                 {
@@ -206,13 +216,13 @@
             "url": "https://apps.apple.com/jp/app/yy%E3%83%AC%E3%82%BB%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3-%E7%B0%A1%E5%8D%98%E3%81%A7%E6%89%8B%E8%BB%BD%E3%81%AB%E4%BD%BF%E3%81%88%E3%82%8B%E9%9F%B3%E5%A3%B0%E8%AA%8D%E8%AD%98%E3%82%A2%E3%83%97%E3%83%AA/id6443889584?uo=4",
             "developer": "EQUOS RESEARCH CO.,LTD.",
             "latest": {
-                "version": "6.3.30",
-                "updated": 1790631699,
-                "recentChanges": "本バージョンでは下記対応を行いました。\n・音声認識のオンライン／オフライン自動切り替えと、オフライン固定に対応しました。",
-                "changelogHash": "sha256:fe3d3076e8d33ed46aed55ddaa4f60c632129cff9b4971250b211de6afbc3320",
-                "fetchedAt": "2026-09-29T01:01:58Z"
+                "version": "6.3.31",
+                "updated": 1791482732,
+                "recentChanges": "本バージョンでは下記対応を行いました。\n・画像と動画登録のデータ一覧順を改善\n・翻訳機能の品質改善\n・内部的品質改善",
+                "changelogHash": "sha256:b683e1cde9b5d0da26baf170db877e69369a3d67ef1f650b432fb916acf4731f",
+                "fetchedAt": "2026-10-08T20:34:27Z"
             },
-            "lastCheckedAt": "2026-10-07T20:30:24Z",
+            "lastCheckedAt": "2026-10-08T20:34:27Z",
             "lastError": null,
             "history": [
                 {
@@ -232,6 +242,16 @@
                     "recentChanges": "本バージョンでは下記対応を行いました。\n・音声認識のオンライン／オフライン自動切り替えと、オフライン固定に対応しました。",
                     "changelogHash": "sha256:fe3d3076e8d33ed46aed55ddaa4f60c632129cff9b4971250b211de6afbc3320",
                     "fetchedAt": "2026-09-29T01:01:58Z",
+                    "gapSuspected": false,
+                    "versionCompare": "parsed"
+                },
+                {
+                    "version": "6.3.31",
+                    "previousVersion": "6.3.30",
+                    "updated": 1791482732,
+                    "recentChanges": "本バージョンでは下記対応を行いました。\n・画像と動画登録のデータ一覧順を改善\n・翻訳機能の品質改善\n・内部的品質改善",
+                    "changelogHash": "sha256:b683e1cde9b5d0da26baf170db877e69369a3d67ef1f650b432fb916acf4731f",
+                    "fetchedAt": "2026-10-08T20:34:27Z",
                     "gapSuspected": false,
                     "versionCompare": "parsed"
                 }
