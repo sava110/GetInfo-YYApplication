@@ -12,7 +12,7 @@
                 "changelogHash": "sha256:bbdb1b474277c1dc8d5c730567491900fe8efb6736aa73a24a6158c58666a551",
                 "fetchedAt": "2026-09-28T02:25:15Z"
             },
-            "lastCheckedAt": "2026-10-11T19:24:22Z",
+            "lastCheckedAt": "2026-10-12T22:26:05Z",
             "lastError": null,
             "history": [
                 {
@@ -38,7 +38,7 @@
                 "changelogHash": "sha256:08f0be59031c3b10847359347c11349fb3a0b83afaf13d70da72488c06a5d8ab",
                 "fetchedAt": "2026-10-07T20:30:20Z"
             },
-            "lastCheckedAt": "2026-10-11T19:24:23Z",
+            "lastCheckedAt": "2026-10-12T22:26:05Z",
             "lastError": null,
             "history": [
                 {
@@ -84,7 +84,7 @@
                 "changelogHash": "sha256:abdcccfdd7ad4f8642e3602fa2fd193653c07b91e58a18ad6ee78efcd3600601",
                 "fetchedAt": "2026-09-28T02:33:32Z"
             },
-            "lastCheckedAt": "2026-10-11T19:24:29Z",
+            "lastCheckedAt": "2026-10-12T22:26:11Z",
             "lastError": null,
             "history": [
                 {
@@ -104,13 +104,13 @@
             "url": "https://apps.apple.com/jp/app/yyprobe-%E4%BC%9A%E8%A9%B1%E3%81%AE%E5%8F%AF%E8%A6%96%E5%8C%96%E3%82%A2%E3%83%97%E3%83%AA/id1493896577?uo=4",
             "developer": "EQUOS RESEARCH CO.,LTD.",
             "latest": {
-                "version": "9.6.39",
-                "updated": 1791481302,
-                "recentChanges": "本バージョンでは下記対応を行いました。\n・翻訳機能の品質改善",
-                "changelogHash": "sha256:5e893e88a4119a551743e0c43b62a99c8a8e1dc564186389bb6ec5788f3377e3",
-                "fetchedAt": "2026-10-08T20:34:24Z"
+                "version": "9.6.40",
+                "updated": 1791762240,
+                "recentChanges": "本バージョンでは下記対応を行いました。\n\n・翻訳が表示されない問題を修正しました。\n・内部的な品質を改善しました。",
+                "changelogHash": "sha256:758719140efaef0bb6f0e48099c216cb8736963821e3e889af45337a9713691e",
+                "fetchedAt": "2026-10-12T22:26:07Z"
             },
-            "lastCheckedAt": "2026-10-11T19:24:24Z",
+            "lastCheckedAt": "2026-10-12T22:26:07Z",
             "lastError": null,
             "history": [
                 {
@@ -152,6 +152,16 @@
                     "fetchedAt": "2026-10-08T20:34:24Z",
                     "gapSuspected": false,
                     "versionCompare": "parsed"
+                },
+                {
+                    "version": "9.6.40",
+                    "previousVersion": "9.6.39",
+                    "updated": 1791762240,
+                    "recentChanges": "本バージョンでは下記対応を行いました。\n\n・翻訳が表示されない問題を修正しました。\n・内部的な品質を改善しました。",
+                    "changelogHash": "sha256:758719140efaef0bb6f0e48099c216cb8736963821e3e889af45337a9713691e",
+                    "fetchedAt": "2026-10-12T22:26:07Z",
+                    "gapSuspected": false,
+                    "versionCompare": "parsed"
                 }
             ]
         },
@@ -160,13 +170,13 @@
             "url": "https://apps.apple.com/jp/app/yy%E6%96%87%E5%AD%97%E8%B5%B7%E3%81%93%E3%81%97-%E9%AB%98%E6%80%A7%E8%83%BD%E3%81%A7%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%AA%E6%96%87%E5%AD%97%E8%B5%B7%E3%81%93%E3%81%97%E3%82%A2%E3%83%97%E3%83%AA/id1570419146?uo=4",
             "developer": "EQUOS RESEARCH CO.,LTD.",
             "latest": {
-                "version": "18.21.2",
-                "updated": 1791313952,
-                "recentChanges": "本バージョンでは下記対応を行いました。\n・対面モードの画面分割で、それぞれの画面に対応する言語のみ表示するように改善\n・iOSオフライン音声認識における言語選択の安定性を向上",
-                "changelogHash": "sha256:e02a9d68dba5ef61ef5e3b6938478757b75c48c263ce0682a0c1a72707f942cb",
-                "fetchedAt": "2026-10-07T20:30:23Z"
+                "version": "18.21.3",
+                "updated": 1791762047,
+                "recentChanges": "本バージョンでは下記対応を行いました。\n\n・内部的な品質を改善しました。",
+                "changelogHash": "sha256:1a689e640d85afa31481d9822b54549caf7875a05b985688f136f2f6bc042a2a",
+                "fetchedAt": "2026-10-12T22:26:08Z"
             },
-            "lastCheckedAt": "2026-10-11T19:24:25Z",
+            "lastCheckedAt": "2026-10-12T22:26:08Z",
             "lastError": null,
             "history": [
                 {
@@ -208,6 +218,16 @@
                     "fetchedAt": "2026-10-07T20:30:23Z",
                     "gapSuspected": false,
                     "versionCompare": "parsed"
+                },
+                {
+                    "version": "18.21.3",
+                    "previousVersion": "18.21.2",
+                    "updated": 1791762047,
+                    "recentChanges": "本バージョンでは下記対応を行いました。\n\n・内部的な品質を改善しました。",
+                    "changelogHash": "sha256:1a689e640d85afa31481d9822b54549caf7875a05b985688f136f2f6bc042a2a",
+                    "fetchedAt": "2026-10-12T22:26:08Z",
+                    "gapSuspected": false,
+                    "versionCompare": "parsed"
                 }
             ]
         },
@@ -216,13 +236,13 @@
             "url": "https://apps.apple.com/jp/app/yy%E3%83%AC%E3%82%BB%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3-%E7%B0%A1%E5%8D%98%E3%81%A7%E6%89%8B%E8%BB%BD%E3%81%AB%E4%BD%BF%E3%81%88%E3%82%8B%E9%9F%B3%E5%A3%B0%E8%AA%8D%E8%AD%98%E3%82%A2%E3%83%97%E3%83%AA/id6443889584?uo=4",
             "developer": "EQUOS RESEARCH CO.,LTD.",
             "latest": {
-                "version": "6.3.33",
-                "updated": 1791564225,
-                "recentChanges": "本バージョンでは下記対応を行いました。\n・辞書で適用した表記が、AI自動修正によって別の表記に変更される不具合を修正\n・オンライン・オフライン切替時やバックグラウンド復帰時の動作を安定化\n・内部的品質改善",
-                "changelogHash": "sha256:a0c83ae11b176aee4ec2f474ffd70da74479fca17601fb128cb8b37a45fc8d0e",
-                "fetchedAt": "2026-10-09T20:02:09Z"
+                "version": "6.3.34",
+                "updated": 1791762086,
+                "recentChanges": "本バージョンでは下記対応を行いました。\n\n・内部的な品質を改善しました。",
+                "changelogHash": "sha256:1a689e640d85afa31481d9822b54549caf7875a05b985688f136f2f6bc042a2a",
+                "fetchedAt": "2026-10-12T22:26:09Z"
             },
-            "lastCheckedAt": "2026-10-11T19:24:26Z",
+            "lastCheckedAt": "2026-10-12T22:26:09Z",
             "lastError": null,
             "history": [
                 {
@@ -263,6 +283,16 @@
                     "changelogHash": "sha256:a0c83ae11b176aee4ec2f474ffd70da74479fca17601fb128cb8b37a45fc8d0e",
                     "fetchedAt": "2026-10-09T20:02:09Z",
                     "gapSuspected": true,
+                    "versionCompare": "parsed"
+                },
+                {
+                    "version": "6.3.34",
+                    "previousVersion": "6.3.33",
+                    "updated": 1791762086,
+                    "recentChanges": "本バージョンでは下記対応を行いました。\n\n・内部的な品質を改善しました。",
+                    "changelogHash": "sha256:1a689e640d85afa31481d9822b54549caf7875a05b985688f136f2f6bc042a2a",
+                    "fetchedAt": "2026-10-12T22:26:09Z",
+                    "gapSuspected": false,
                     "versionCompare": "parsed"
                 }
             ]
