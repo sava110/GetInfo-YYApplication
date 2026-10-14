@@ -7,12 +7,12 @@
             "developer": "YYSYSTEM",
             "latest": {
                 "version": "Varies with device",
-                "updated": 1790332949,
-                "recentChanges": "以下の内容に対応しました\n・高精度認識モードの対応言語を見直し",
-                "changelogHash": "sha256:bbdb1b474277c1dc8d5c730567491900fe8efb6736aa73a24a6158c58666a551",
-                "fetchedAt": "2026-09-28T02:25:15Z"
+                "updated": 1791981484,
+                "recentChanges": "以下の内容に対応しました\n・マイクの入力ゲイン調整追加\n・高精度認識モード遅延時の対策\n・読み上げ速度の調整\n・その他、セキュリティ対策",
+                "changelogHash": "sha256:bdd0f5f6a7a23227172bb8dafbf379f7769f77131b28e3eda58f58a96df6fea2",
+                "fetchedAt": "2026-10-14T19:14:11Z"
             },
-            "lastCheckedAt": "2026-10-13T20:33:20Z",
+            "lastCheckedAt": "2026-10-14T19:14:11Z",
             "lastError": null,
             "history": [
                 {
@@ -24,6 +24,16 @@
                     "fetchedAt": "2026-09-28T02:25:15Z",
                     "gapSuspected": false,
                     "versionCompare": "unparsed"
+                },
+                {
+                    "version": "Varies with device",
+                    "previousVersion": "Varies with device",
+                    "updated": 1791981484,
+                    "recentChanges": "以下の内容に対応しました\n・マイクの入力ゲイン調整追加\n・高精度認識モード遅延時の対策\n・読み上げ速度の調整\n・その他、セキュリティ対策",
+                    "changelogHash": "sha256:bdd0f5f6a7a23227172bb8dafbf379f7769f77131b28e3eda58f58a96df6fea2",
+                    "fetchedAt": "2026-10-14T19:14:11Z",
+                    "gapSuspected": false,
+                    "versionCompare": "unparsed"
                 }
             ]
         },
@@ -32,13 +42,13 @@
             "url": "https://play.google.com/store/apps/details?id=yytranscript.yysystem.android&hl=ja&gl=jp",
             "developer": "YYSYSTEM",
             "latest": {
-                "version": "2.8.6",
-                "updated": 1791254411,
-                "recentChanges": "以下の内容に対応しています。\n・イコライザー表示時のフェールセーフを追加\n・AIアシスタントが動作しない不具合修正\n・スクロールの挙動の安定化",
-                "changelogHash": "sha256:08f0be59031c3b10847359347c11349fb3a0b83afaf13d70da72488c06a5d8ab",
-                "fetchedAt": "2026-10-07T20:30:20Z"
+                "version": "2.9.0",
+                "updated": 1791996940,
+                "recentChanges": "以下の内容に対応しています。\n・初回インストール時のチュートリアル機能追加\n・作品ガイドに履歴機能追加\n・権限の見直し\n・その他、セキュリティ対策",
+                "changelogHash": "sha256:a558b23c35de3f519ed00891a8018ae1c80b408e05c276ff4928e43cda9012f3",
+                "fetchedAt": "2026-10-14T19:14:11Z"
             },
-            "lastCheckedAt": "2026-10-13T20:33:20Z",
+            "lastCheckedAt": "2026-10-14T19:14:11Z",
             "lastError": null,
             "history": [
                 {
@@ -70,6 +80,16 @@
                     "fetchedAt": "2026-10-07T20:30:20Z",
                     "gapSuspected": true,
                     "versionCompare": "parsed"
+                },
+                {
+                    "version": "2.9.0",
+                    "previousVersion": "2.8.6",
+                    "updated": 1791996940,
+                    "recentChanges": "以下の内容に対応しています。\n・初回インストール時のチュートリアル機能追加\n・作品ガイドに履歴機能追加\n・権限の見直し\n・その他、セキュリティ対策",
+                    "changelogHash": "sha256:a558b23c35de3f519ed00891a8018ae1c80b408e05c276ff4928e43cda9012f3",
+                    "fetchedAt": "2026-10-14T19:14:11Z",
+                    "gapSuspected": false,
+                    "versionCompare": "parsed"
                 }
             ]
         },
@@ -84,7 +104,7 @@
                 "changelogHash": "sha256:abdcccfdd7ad4f8642e3602fa2fd193653c07b91e58a18ad6ee78efcd3600601",
                 "fetchedAt": "2026-09-28T02:33:32Z"
             },
-            "lastCheckedAt": "2026-10-13T20:33:26Z",
+            "lastCheckedAt": "2026-10-14T19:14:18Z",
             "lastError": null,
             "history": [
                 {
@@ -104,13 +124,13 @@
             "url": "https://apps.apple.com/jp/app/yyprobe-%E4%BC%9A%E8%A9%B1%E3%81%AE%E5%8F%AF%E8%A6%96%E5%8C%96%E3%82%A2%E3%83%97%E3%83%AA/id1493896577?uo=4",
             "developer": "EQUOS RESEARCH CO.,LTD.",
             "latest": {
-                "version": "9.6.40",
-                "updated": 1791762240,
-                "recentChanges": "本バージョンでは下記対応を行いました。\n\n・翻訳が表示されない問題を修正しました。\n・内部的な品質を改善しました。",
-                "changelogHash": "sha256:758719140efaef0bb6f0e48099c216cb8736963821e3e889af45337a9713691e",
-                "fetchedAt": "2026-10-12T22:26:07Z"
+                "version": "9.6.41",
+                "updated": 1791996709,
+                "recentChanges": "本バージョンでは下記対応を行いました。\n\n・高精度認識モードの動作を安定化しました。\n・内部的な品質を改善しました。",
+                "changelogHash": "sha256:acc061afa7aece5d2265b6ed192d2073a0fcf3eac44545f29c0a5b908503ff50",
+                "fetchedAt": "2026-10-14T19:14:13Z"
             },
-            "lastCheckedAt": "2026-10-13T20:33:21Z",
+            "lastCheckedAt": "2026-10-14T19:14:13Z",
             "lastError": null,
             "history": [
                 {
@@ -162,6 +182,16 @@
                     "fetchedAt": "2026-10-12T22:26:07Z",
                     "gapSuspected": false,
                     "versionCompare": "parsed"
+                },
+                {
+                    "version": "9.6.41",
+                    "previousVersion": "9.6.40",
+                    "updated": 1791996709,
+                    "recentChanges": "本バージョンでは下記対応を行いました。\n\n・高精度認識モードの動作を安定化しました。\n・内部的な品質を改善しました。",
+                    "changelogHash": "sha256:acc061afa7aece5d2265b6ed192d2073a0fcf3eac44545f29c0a5b908503ff50",
+                    "fetchedAt": "2026-10-14T19:14:13Z",
+                    "gapSuspected": false,
+                    "versionCompare": "parsed"
                 }
             ]
         },
@@ -176,7 +206,7 @@
                 "changelogHash": "sha256:1a689e640d85afa31481d9822b54549caf7875a05b985688f136f2f6bc042a2a",
                 "fetchedAt": "2026-10-12T22:26:08Z"
             },
-            "lastCheckedAt": "2026-10-13T20:33:23Z",
+            "lastCheckedAt": "2026-10-14T19:14:14Z",
             "lastError": null,
             "history": [
                 {
@@ -236,13 +266,13 @@
             "url": "https://apps.apple.com/jp/app/yy%E3%83%AC%E3%82%BB%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3-%E7%B0%A1%E5%8D%98%E3%81%A7%E6%89%8B%E8%BB%BD%E3%81%AB%E4%BD%BF%E3%81%88%E3%82%8B%E9%9F%B3%E5%A3%B0%E8%AA%8D%E8%AD%98%E3%82%A2%E3%83%97%E3%83%AA/id6443889584?uo=4",
             "developer": "EQUOS RESEARCH CO.,LTD.",
             "latest": {
-                "version": "6.3.34",
-                "updated": 1791762086,
-                "recentChanges": "本バージョンでは下記対応を行いました。\n\n・内部的な品質を改善しました。",
-                "changelogHash": "sha256:1a689e640d85afa31481d9822b54549caf7875a05b985688f136f2f6bc042a2a",
-                "fetchedAt": "2026-10-12T22:26:09Z"
+                "version": "6.3.35",
+                "updated": 1791996695,
+                "recentChanges": "本バージョンでは下記対応を行いました。\n\n・高精度認識モードの動作を安定化しました。\n・内部的な品質を改善しました。",
+                "changelogHash": "sha256:acc061afa7aece5d2265b6ed192d2073a0fcf3eac44545f29c0a5b908503ff50",
+                "fetchedAt": "2026-10-14T19:14:15Z"
             },
-            "lastCheckedAt": "2026-10-13T20:33:24Z",
+            "lastCheckedAt": "2026-10-14T19:14:15Z",
             "lastError": null,
             "history": [
                 {
@@ -292,6 +322,16 @@
                     "recentChanges": "本バージョンでは下記対応を行いました。\n\n・内部的な品質を改善しました。",
                     "changelogHash": "sha256:1a689e640d85afa31481d9822b54549caf7875a05b985688f136f2f6bc042a2a",
                     "fetchedAt": "2026-10-12T22:26:09Z",
+                    "gapSuspected": false,
+                    "versionCompare": "parsed"
+                },
+                {
+                    "version": "6.3.35",
+                    "previousVersion": "6.3.34",
+                    "updated": 1791996695,
+                    "recentChanges": "本バージョンでは下記対応を行いました。\n\n・高精度認識モードの動作を安定化しました。\n・内部的な品質を改善しました。",
+                    "changelogHash": "sha256:acc061afa7aece5d2265b6ed192d2073a0fcf3eac44545f29c0a5b908503ff50",
+                    "fetchedAt": "2026-10-14T19:14:15Z",
                     "gapSuspected": false,
                     "versionCompare": "parsed"
                 }
