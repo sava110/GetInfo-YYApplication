@@ -12,7 +12,7 @@
                 "changelogHash": "sha256:bdd0f5f6a7a23227172bb8dafbf379f7769f77131b28e3eda58f58a96df6fea2",
                 "fetchedAt": "2026-10-14T19:14:11Z"
             },
-            "lastCheckedAt": "2026-10-14T19:14:11Z",
+            "lastCheckedAt": "2026-10-15T18:57:56Z",
             "lastError": null,
             "history": [
                 {
@@ -48,7 +48,7 @@
                 "changelogHash": "sha256:a558b23c35de3f519ed00891a8018ae1c80b408e05c276ff4928e43cda9012f3",
                 "fetchedAt": "2026-10-14T19:14:11Z"
             },
-            "lastCheckedAt": "2026-10-14T19:14:11Z",
+            "lastCheckedAt": "2026-10-15T18:57:57Z",
             "lastError": null,
             "history": [
                 {
@@ -104,7 +104,7 @@
                 "changelogHash": "sha256:abdcccfdd7ad4f8642e3602fa2fd193653c07b91e58a18ad6ee78efcd3600601",
                 "fetchedAt": "2026-09-28T02:33:32Z"
             },
-            "lastCheckedAt": "2026-10-14T19:14:18Z",
+            "lastCheckedAt": "2026-10-15T18:58:02Z",
             "lastError": null,
             "history": [
                 {
@@ -130,7 +130,7 @@
                 "changelogHash": "sha256:acc061afa7aece5d2265b6ed192d2073a0fcf3eac44545f29c0a5b908503ff50",
                 "fetchedAt": "2026-10-14T19:14:13Z"
             },
-            "lastCheckedAt": "2026-10-14T19:14:13Z",
+            "lastCheckedAt": "2026-10-15T18:57:58Z",
             "lastError": null,
             "history": [
                 {
@@ -200,13 +200,13 @@
             "url": "https://apps.apple.com/jp/app/yy%E6%96%87%E5%AD%97%E8%B5%B7%E3%81%93%E3%81%97-%E9%AB%98%E6%80%A7%E8%83%BD%E3%81%A7%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%AA%E6%96%87%E5%AD%97%E8%B5%B7%E3%81%93%E3%81%97%E3%82%A2%E3%83%97%E3%83%AA/id1570419146?uo=4",
             "developer": "EQUOS RESEARCH CO.,LTD.",
             "latest": {
-                "version": "18.21.3",
-                "updated": 1791762047,
-                "recentChanges": "本バージョンでは下記対応を行いました。\n\n・内部的な品質を改善しました。",
-                "changelogHash": "sha256:1a689e640d85afa31481d9822b54549caf7875a05b985688f136f2f6bc042a2a",
-                "fetchedAt": "2026-10-12T22:26:08Z"
+                "version": "18.21.5",
+                "updated": 1792017520,
+                "recentChanges": "本バージョンでは下記対応を行いました。\n・キーワード通知で、通知音を鳴らさずに振動だけでお知らせできるようにしました。\n・内部的な品質を改善しました。",
+                "changelogHash": "sha256:221985154012912117d33fd4c448cdc3410494334017af145b28528f52ca1be1",
+                "fetchedAt": "2026-10-15T18:57:59Z"
             },
-            "lastCheckedAt": "2026-10-14T19:14:14Z",
+            "lastCheckedAt": "2026-10-15T18:57:59Z",
             "lastError": null,
             "history": [
                 {
@@ -258,6 +258,16 @@
                     "fetchedAt": "2026-10-12T22:26:08Z",
                     "gapSuspected": false,
                     "versionCompare": "parsed"
+                },
+                {
+                    "version": "18.21.5",
+                    "previousVersion": "18.21.3",
+                    "updated": 1792017520,
+                    "recentChanges": "本バージョンでは下記対応を行いました。\n・キーワード通知で、通知音を鳴らさずに振動だけでお知らせできるようにしました。\n・内部的な品質を改善しました。",
+                    "changelogHash": "sha256:221985154012912117d33fd4c448cdc3410494334017af145b28528f52ca1be1",
+                    "fetchedAt": "2026-10-15T18:57:59Z",
+                    "gapSuspected": true,
+                    "versionCompare": "parsed"
                 }
             ]
         },
@@ -272,7 +282,7 @@
                 "changelogHash": "sha256:acc061afa7aece5d2265b6ed192d2073a0fcf3eac44545f29c0a5b908503ff50",
                 "fetchedAt": "2026-10-14T19:14:15Z"
             },
-            "lastCheckedAt": "2026-10-14T19:14:15Z",
+            "lastCheckedAt": "2026-10-15T18:58:00Z",
             "lastError": null,
             "history": [
                 {
