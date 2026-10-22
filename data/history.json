@@ -12,7 +12,7 @@
                 "changelogHash": "sha256:bdd0f5f6a7a23227172bb8dafbf379f7769f77131b28e3eda58f58a96df6fea2",
                 "fetchedAt": "2026-10-14T19:14:11Z"
             },
-            "lastCheckedAt": "2026-10-21T19:10:17Z",
+            "lastCheckedAt": "2026-10-22T19:05:19Z",
             "lastError": null,
             "history": [
                 {
@@ -48,7 +48,7 @@
                 "changelogHash": "sha256:a558b23c35de3f519ed00891a8018ae1c80b408e05c276ff4928e43cda9012f3",
                 "fetchedAt": "2026-10-14T19:14:11Z"
             },
-            "lastCheckedAt": "2026-10-21T19:10:18Z",
+            "lastCheckedAt": "2026-10-22T19:05:19Z",
             "lastError": null,
             "history": [
                 {
@@ -104,11 +104,8 @@
                 "changelogHash": "sha256:abdcccfdd7ad4f8642e3602fa2fd193653c07b91e58a18ad6ee78efcd3600601",
                 "fetchedAt": "2026-09-28T02:33:32Z"
             },
-            "lastCheckedAt": "2026-10-21T19:10:23Z",
-            "lastError": {
-                "at": "2026-10-21T19:10:23Z",
-                "message": "release heading not found"
-            },
+            "lastCheckedAt": "2026-10-22T19:05:25Z",
+            "lastError": null,
             "history": [
                 {
                     "version": "4.0.7",
@@ -127,13 +124,13 @@
             "url": "https://apps.apple.com/jp/app/yyprobe-%E4%BC%9A%E8%A9%B1%E3%81%AE%E5%8F%AF%E8%A6%96%E5%8C%96%E3%82%A2%E3%83%97%E3%83%AA/id1493896577?uo=4",
             "developer": "EQUOS RESEARCH CO.,LTD.",
             "latest": {
-                "version": "9.6.41",
-                "updated": 1791996709,
-                "recentChanges": "本バージョンでは下記対応を行いました。\n\n・高精度認識モードの動作を安定化しました。\n・内部的な品質を改善しました。",
-                "changelogHash": "sha256:acc061afa7aece5d2265b6ed192d2073a0fcf3eac44545f29c0a5b908503ff50",
-                "fetchedAt": "2026-10-14T19:14:13Z"
+                "version": "9.6.42",
+                "updated": 1792609195,
+                "recentChanges": "本バージョンでは下記対応を行いました。\n・セキュリティを強化しました",
+                "changelogHash": "sha256:09d3879f5f4819c05c3b55a5eaad585fa10dc4adb4445f0b49122c3b1e5d739f",
+                "fetchedAt": "2026-10-22T19:05:20Z"
             },
-            "lastCheckedAt": "2026-10-21T19:10:19Z",
+            "lastCheckedAt": "2026-10-22T19:05:20Z",
             "lastError": null,
             "history": [
                 {
@@ -195,6 +192,16 @@
                     "fetchedAt": "2026-10-14T19:14:13Z",
                     "gapSuspected": false,
                     "versionCompare": "parsed"
+                },
+                {
+                    "version": "9.6.42",
+                    "previousVersion": "9.6.41",
+                    "updated": 1792609195,
+                    "recentChanges": "本バージョンでは下記対応を行いました。\n・セキュリティを強化しました",
+                    "changelogHash": "sha256:09d3879f5f4819c05c3b55a5eaad585fa10dc4adb4445f0b49122c3b1e5d739f",
+                    "fetchedAt": "2026-10-22T19:05:20Z",
+                    "gapSuspected": false,
+                    "versionCompare": "parsed"
                 }
             ]
         },
@@ -203,13 +210,13 @@
             "url": "https://apps.apple.com/jp/app/yy%E6%96%87%E5%AD%97%E8%B5%B7%E3%81%93%E3%81%97-%E9%AB%98%E6%80%A7%E8%83%BD%E3%81%A7%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%AA%E6%96%87%E5%AD%97%E8%B5%B7%E3%81%93%E3%81%97%E3%82%A2%E3%83%97%E3%83%AA/id1570419146?uo=4",
             "developer": "EQUOS RESEARCH CO.,LTD.",
             "latest": {
-                "version": "18.21.7",
-                "updated": 1792534119,
-                "recentChanges": "本バージョンでは下記対応を行いました。\n・オンライン、オフラインの切り替え処理の改善",
-                "changelogHash": "sha256:1b03617aa36de1d0bad5e6b94417776579593f9de95a5f7d11ae5c395f550152",
-                "fetchedAt": "2026-10-21T19:10:20Z"
+                "version": "18.21.8",
+                "updated": 1792609713,
+                "recentChanges": "本バージョンでは下記対応を行いました。\n・内部的な処理の改善",
+                "changelogHash": "sha256:bca0d8eb0dd5d2c73f9a52fdb6a4d0dc452f7ea49777864a7880fe33d288a681",
+                "fetchedAt": "2026-10-22T19:05:21Z"
             },
-            "lastCheckedAt": "2026-10-21T19:10:20Z",
+            "lastCheckedAt": "2026-10-22T19:05:21Z",
             "lastError": null,
             "history": [
                 {
@@ -291,6 +298,16 @@
                     "fetchedAt": "2026-10-21T19:10:20Z",
                     "gapSuspected": false,
                     "versionCompare": "parsed"
+                },
+                {
+                    "version": "18.21.8",
+                    "previousVersion": "18.21.7",
+                    "updated": 1792609713,
+                    "recentChanges": "本バージョンでは下記対応を行いました。\n・内部的な処理の改善",
+                    "changelogHash": "sha256:bca0d8eb0dd5d2c73f9a52fdb6a4d0dc452f7ea49777864a7880fe33d288a681",
+                    "fetchedAt": "2026-10-22T19:05:21Z",
+                    "gapSuspected": false,
+                    "versionCompare": "parsed"
                 }
             ]
         },
@@ -299,13 +316,13 @@
             "url": "https://apps.apple.com/jp/app/yy%E3%83%AC%E3%82%BB%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3-%E7%B0%A1%E5%8D%98%E3%81%A7%E6%89%8B%E8%BB%BD%E3%81%AB%E4%BD%BF%E3%81%88%E3%82%8B%E9%9F%B3%E5%A3%B0%E8%AA%8D%E8%AD%98%E3%82%A2%E3%83%97%E3%83%AA/id6443889584?uo=4",
             "developer": "EQUOS RESEARCH CO.,LTD.",
             "latest": {
-                "version": "6.3.35",
-                "updated": 1791996695,
-                "recentChanges": "本バージョンでは下記対応を行いました。\n\n・高精度認識モードの動作を安定化しました。\n・内部的な品質を改善しました。",
-                "changelogHash": "sha256:acc061afa7aece5d2265b6ed192d2073a0fcf3eac44545f29c0a5b908503ff50",
-                "fetchedAt": "2026-10-14T19:14:15Z"
+                "version": "6.3.36",
+                "updated": 1792609712,
+                "recentChanges": "本バージョンでは下記対応を行いました。\n・セキュリティを強化しました",
+                "changelogHash": "sha256:09d3879f5f4819c05c3b55a5eaad585fa10dc4adb4445f0b49122c3b1e5d739f",
+                "fetchedAt": "2026-10-22T19:05:23Z"
             },
-            "lastCheckedAt": "2026-10-21T19:10:21Z",
+            "lastCheckedAt": "2026-10-22T19:05:23Z",
             "lastError": null,
             "history": [
                 {
@@ -365,6 +382,16 @@
                     "recentChanges": "本バージョンでは下記対応を行いました。\n\n・高精度認識モードの動作を安定化しました。\n・内部的な品質を改善しました。",
                     "changelogHash": "sha256:acc061afa7aece5d2265b6ed192d2073a0fcf3eac44545f29c0a5b908503ff50",
                     "fetchedAt": "2026-10-14T19:14:15Z",
+                    "gapSuspected": false,
+                    "versionCompare": "parsed"
+                },
+                {
+                    "version": "6.3.36",
+                    "previousVersion": "6.3.35",
+                    "updated": 1792609712,
+                    "recentChanges": "本バージョンでは下記対応を行いました。\n・セキュリティを強化しました",
+                    "changelogHash": "sha256:09d3879f5f4819c05c3b55a5eaad585fa10dc4adb4445f0b49122c3b1e5d739f",
+                    "fetchedAt": "2026-10-22T19:05:23Z",
                     "gapSuspected": false,
                     "versionCompare": "parsed"
                 }
