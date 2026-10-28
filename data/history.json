@@ -12,7 +12,7 @@
                 "changelogHash": "sha256:87dc8be7f97034f3279f0f05b2ec770596684637b051737de253ea38a3116db0",
                 "fetchedAt": "2026-10-26T20:21:42Z"
             },
-            "lastCheckedAt": "2026-10-27T19:55:37Z",
+            "lastCheckedAt": "2026-10-28T20:08:38Z",
             "lastError": null,
             "history": [
                 {
@@ -58,7 +58,7 @@
                 "changelogHash": "sha256:f27b5bc680ba3a3f497f20dee3c1faa2a6d874fc5f152354c2b3684011b18aa9",
                 "fetchedAt": "2026-10-26T20:21:42Z"
             },
-            "lastCheckedAt": "2026-10-27T19:55:37Z",
+            "lastCheckedAt": "2026-10-28T20:08:39Z",
             "lastError": null,
             "history": [
                 {
@@ -124,7 +124,7 @@
                 "changelogHash": "sha256:abdcccfdd7ad4f8642e3602fa2fd193653c07b91e58a18ad6ee78efcd3600601",
                 "fetchedAt": "2026-09-28T02:33:32Z"
             },
-            "lastCheckedAt": "2026-10-27T19:55:43Z",
+            "lastCheckedAt": "2026-10-28T20:08:45Z",
             "lastError": null,
             "history": [
                 {
@@ -150,7 +150,7 @@
                 "changelogHash": "sha256:09d3879f5f4819c05c3b55a5eaad585fa10dc4adb4445f0b49122c3b1e5d739f",
                 "fetchedAt": "2026-10-22T19:05:20Z"
             },
-            "lastCheckedAt": "2026-10-27T19:55:38Z",
+            "lastCheckedAt": "2026-10-28T20:08:40Z",
             "lastError": null,
             "history": [
                 {
@@ -230,13 +230,13 @@
             "url": "https://apps.apple.com/jp/app/yy%E6%96%87%E5%AD%97%E8%B5%B7%E3%81%93%E3%81%97-%E9%AB%98%E6%80%A7%E8%83%BD%E3%81%A7%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%AA%E6%96%87%E5%AD%97%E8%B5%B7%E3%81%93%E3%81%97%E3%82%A2%E3%83%97%E3%83%AA/id1570419146?uo=4",
             "developer": "EQUOS RESEARCH CO.,LTD.",
             "latest": {
-                "version": "18.21.8",
-                "updated": 1792609713,
-                "recentChanges": "本バージョンでは下記対応を行いました。\n・内部的な処理の改善",
-                "changelogHash": "sha256:bca0d8eb0dd5d2c73f9a52fdb6a4d0dc452f7ea49777864a7880fe33d288a681",
-                "fetchedAt": "2026-10-22T19:05:21Z"
+                "version": "18.21.9",
+                "updated": 1793206457,
+                "recentChanges": "本バージョンでは下記対応を行いました。\n\n・iPhone Duoの画面に対応しました。\n・オフラインエンジンのダウンロード処理を改善しました。\n・AIアシスタントの対話応答機能の提供を終了しました。",
+                "changelogHash": "sha256:394fda8d7e25cad4962020b8946489e21123f5205cb4ff989d26ebf56020909f",
+                "fetchedAt": "2026-10-28T20:08:41Z"
             },
-            "lastCheckedAt": "2026-10-27T19:55:40Z",
+            "lastCheckedAt": "2026-10-28T20:08:41Z",
             "lastError": null,
             "history": [
                 {
@@ -328,6 +328,16 @@
                     "fetchedAt": "2026-10-22T19:05:21Z",
                     "gapSuspected": false,
                     "versionCompare": "parsed"
+                },
+                {
+                    "version": "18.21.9",
+                    "previousVersion": "18.21.8",
+                    "updated": 1793206457,
+                    "recentChanges": "本バージョンでは下記対応を行いました。\n\n・iPhone Duoの画面に対応しました。\n・オフラインエンジンのダウンロード処理を改善しました。\n・AIアシスタントの対話応答機能の提供を終了しました。",
+                    "changelogHash": "sha256:394fda8d7e25cad4962020b8946489e21123f5205cb4ff989d26ebf56020909f",
+                    "fetchedAt": "2026-10-28T20:08:41Z",
+                    "gapSuspected": false,
+                    "versionCompare": "parsed"
                 }
             ]
         },
@@ -342,7 +352,7 @@
                 "changelogHash": "sha256:09d3879f5f4819c05c3b55a5eaad585fa10dc4adb4445f0b49122c3b1e5d739f",
                 "fetchedAt": "2026-10-22T19:05:23Z"
             },
-            "lastCheckedAt": "2026-10-27T19:55:41Z",
+            "lastCheckedAt": "2026-10-28T20:08:42Z",
             "lastError": null,
             "history": [
                 {
