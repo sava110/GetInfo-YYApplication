@@ -12,7 +12,7 @@
                 "changelogHash": "sha256:87dc8be7f97034f3279f0f05b2ec770596684637b051737de253ea38a3116db0",
                 "fetchedAt": "2026-10-26T20:21:42Z"
             },
-            "lastCheckedAt": "2026-10-29T20:06:54Z",
+            "lastCheckedAt": "2026-10-30T19:52:49Z",
             "lastError": null,
             "history": [
                 {
@@ -58,7 +58,7 @@
                 "changelogHash": "sha256:f27b5bc680ba3a3f497f20dee3c1faa2a6d874fc5f152354c2b3684011b18aa9",
                 "fetchedAt": "2026-10-26T20:21:42Z"
             },
-            "lastCheckedAt": "2026-10-29T20:06:55Z",
+            "lastCheckedAt": "2026-10-30T19:52:50Z",
             "lastError": null,
             "history": [
                 {
@@ -118,13 +118,13 @@
             "url": "https://yysystem.com/releasenotes/yydesktopcaption",
             "developer": "YYSYSTEM",
             "latest": {
-                "version": "4.0.7",
-                "updated": 1785974400,
-                "recentChanges": "近日中に今までのバージョンで一部機能が使用できなくなりますので、アップデートをお願いいたします\n・セキュリティ対策\n・画面表示の不具合を修正\n・言語の切り替え時に音声認識が停止する問題を修正\n・一部の補聴器で文字起こしが開始されない問題を修正\n・その他の不具合修正\n・UI最適化",
-                "changelogHash": "sha256:abdcccfdd7ad4f8642e3602fa2fd193653c07b91e58a18ad6ee78efcd3600601",
-                "fetchedAt": "2026-09-28T02:33:32Z"
+                "version": "5.0.0",
+                "updated": 1793318400,
+                "recentChanges": "新機能\n既存機能の改善\n※ 自動更新用インストーラーはWindows 11以降が対象です。Windows 10ではMSI形式をご利用ください。",
+                "changelogHash": "sha256:23fccb407f4343fea6385b44c7381ea444fda92d84c7c51ad72e57a2e2924ea5",
+                "fetchedAt": "2026-10-30T19:52:55Z"
             },
-            "lastCheckedAt": "2026-10-29T20:07:01Z",
+            "lastCheckedAt": "2026-10-30T19:52:55Z",
             "lastError": null,
             "history": [
                 {
@@ -136,6 +136,16 @@
                     "fetchedAt": "2026-09-28T02:33:32Z",
                     "gapSuspected": false,
                     "versionCompare": "parsed"
+                },
+                {
+                    "version": "5.0.0",
+                    "previousVersion": "4.0.7",
+                    "updated": 1793318400,
+                    "recentChanges": "新機能\n既存機能の改善\n※ 自動更新用インストーラーはWindows 11以降が対象です。Windows 10ではMSI形式をご利用ください。",
+                    "changelogHash": "sha256:23fccb407f4343fea6385b44c7381ea444fda92d84c7c51ad72e57a2e2924ea5",
+                    "fetchedAt": "2026-10-30T19:52:55Z",
+                    "gapSuspected": false,
+                    "versionCompare": "parsed"
                 }
             ]
         },
@@ -144,13 +154,13 @@
             "url": "https://apps.apple.com/jp/app/yyprobe-%E4%BC%9A%E8%A9%B1%E3%81%AE%E5%8F%AF%E8%A6%96%E5%8C%96%E3%82%A2%E3%83%97%E3%83%AA/id1493896577?uo=4",
             "developer": "EQUOS RESEARCH CO.,LTD.",
             "latest": {
-                "version": "9.6.42",
-                "updated": 1792609195,
-                "recentChanges": "本バージョンでは下記対応を行いました。\n・セキュリティを強化しました",
-                "changelogHash": "sha256:09d3879f5f4819c05c3b55a5eaad585fa10dc4adb4445f0b49122c3b1e5d739f",
-                "fetchedAt": "2026-10-22T19:05:20Z"
+                "version": "9.6.44",
+                "updated": 1793302323,
+                "recentChanges": "本バージョンでは下記対応を行いました。\n\n・画面下部の言語表記を改善しました。\n・翻訳が表示されなくなる問題を修正しました。\n・辞書の適用処理を修正しました。",
+                "changelogHash": "sha256:3ed271a25b0f8fedd8bed35ca7d228d83eecd2bc71fca61ea25e4a634c9ff26a",
+                "fetchedAt": "2026-10-30T19:52:51Z"
             },
-            "lastCheckedAt": "2026-10-29T20:06:56Z",
+            "lastCheckedAt": "2026-10-30T19:52:51Z",
             "lastError": null,
             "history": [
                 {
@@ -222,6 +232,16 @@
                     "fetchedAt": "2026-10-22T19:05:20Z",
                     "gapSuspected": false,
                     "versionCompare": "parsed"
+                },
+                {
+                    "version": "9.6.44",
+                    "previousVersion": "9.6.42",
+                    "updated": 1793302323,
+                    "recentChanges": "本バージョンでは下記対応を行いました。\n\n・画面下部の言語表記を改善しました。\n・翻訳が表示されなくなる問題を修正しました。\n・辞書の適用処理を修正しました。",
+                    "changelogHash": "sha256:3ed271a25b0f8fedd8bed35ca7d228d83eecd2bc71fca61ea25e4a634c9ff26a",
+                    "fetchedAt": "2026-10-30T19:52:51Z",
+                    "gapSuspected": true,
+                    "versionCompare": "parsed"
                 }
             ]
         },
@@ -236,7 +256,7 @@
                 "changelogHash": "sha256:f7fde2fe148c3543a0e6da4ae32acacb81c087df8d0d1f023cd1b3704ee0851a",
                 "fetchedAt": "2026-10-29T20:06:57Z"
             },
-            "lastCheckedAt": "2026-10-29T20:06:57Z",
+            "lastCheckedAt": "2026-10-30T19:52:52Z",
             "lastError": null,
             "history": [
                 {
@@ -362,7 +382,7 @@
                 "changelogHash": "sha256:09d3879f5f4819c05c3b55a5eaad585fa10dc4adb4445f0b49122c3b1e5d739f",
                 "fetchedAt": "2026-10-22T19:05:23Z"
             },
-            "lastCheckedAt": "2026-10-29T20:06:58Z",
+            "lastCheckedAt": "2026-10-30T19:52:53Z",
             "lastError": null,
             "history": [
                 {
