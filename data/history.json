@@ -12,7 +12,7 @@
                 "changelogHash": "sha256:87dc8be7f97034f3279f0f05b2ec770596684637b051737de253ea38a3116db0",
                 "fetchedAt": "2026-10-26T20:21:42Z"
             },
-            "lastCheckedAt": "2026-10-30T19:52:49Z",
+            "lastCheckedAt": "2026-10-31T19:09:45Z",
             "lastError": null,
             "history": [
                 {
@@ -58,7 +58,7 @@
                 "changelogHash": "sha256:f27b5bc680ba3a3f497f20dee3c1faa2a6d874fc5f152354c2b3684011b18aa9",
                 "fetchedAt": "2026-10-26T20:21:42Z"
             },
-            "lastCheckedAt": "2026-10-30T19:52:50Z",
+            "lastCheckedAt": "2026-10-31T19:09:45Z",
             "lastError": null,
             "history": [
                 {
@@ -124,7 +124,7 @@
                 "changelogHash": "sha256:23fccb407f4343fea6385b44c7381ea444fda92d84c7c51ad72e57a2e2924ea5",
                 "fetchedAt": "2026-10-30T19:52:55Z"
             },
-            "lastCheckedAt": "2026-10-30T19:52:55Z",
+            "lastCheckedAt": "2026-10-31T19:09:51Z",
             "lastError": null,
             "history": [
                 {
@@ -154,13 +154,13 @@
             "url": "https://apps.apple.com/jp/app/yyprobe-%E4%BC%9A%E8%A9%B1%E3%81%AE%E5%8F%AF%E8%A6%96%E5%8C%96%E3%82%A2%E3%83%97%E3%83%AA/id1493896577?uo=4",
             "developer": "EQUOS RESEARCH CO.,LTD.",
             "latest": {
-                "version": "9.6.44",
-                "updated": 1793302323,
-                "recentChanges": "本バージョンでは下記対応を行いました。\n\n・画面下部の言語表記を改善しました。\n・翻訳が表示されなくなる問題を修正しました。\n・辞書の適用処理を修正しました。",
-                "changelogHash": "sha256:3ed271a25b0f8fedd8bed35ca7d228d83eecd2bc71fca61ea25e4a634c9ff26a",
-                "fetchedAt": "2026-10-30T19:52:51Z"
+                "version": "9.6.45",
+                "updated": 1793388648,
+                "recentChanges": "本バージョンでは下記対応を行いました。\n・箇条書きモードで自動スクロールをOFFにしている際、新しい発言が追加されると表示位置がずれる不具合を修正しました。",
+                "changelogHash": "sha256:7b5715704609019be676b5396ee7f318c638c043a27b0262c8352a3eba694331",
+                "fetchedAt": "2026-10-31T19:09:46Z"
             },
-            "lastCheckedAt": "2026-10-30T19:52:51Z",
+            "lastCheckedAt": "2026-10-31T19:09:46Z",
             "lastError": null,
             "history": [
                 {
@@ -242,6 +242,16 @@
                     "fetchedAt": "2026-10-30T19:52:51Z",
                     "gapSuspected": true,
                     "versionCompare": "parsed"
+                },
+                {
+                    "version": "9.6.45",
+                    "previousVersion": "9.6.44",
+                    "updated": 1793388648,
+                    "recentChanges": "本バージョンでは下記対応を行いました。\n・箇条書きモードで自動スクロールをOFFにしている際、新しい発言が追加されると表示位置がずれる不具合を修正しました。",
+                    "changelogHash": "sha256:7b5715704609019be676b5396ee7f318c638c043a27b0262c8352a3eba694331",
+                    "fetchedAt": "2026-10-31T19:09:46Z",
+                    "gapSuspected": false,
+                    "versionCompare": "parsed"
                 }
             ]
         },
@@ -250,13 +260,13 @@
             "url": "https://apps.apple.com/jp/app/yy%E6%96%87%E5%AD%97%E8%B5%B7%E3%81%93%E3%81%97-%E9%AB%98%E6%80%A7%E8%83%BD%E3%81%A7%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%AA%E6%96%87%E5%AD%97%E8%B5%B7%E3%81%93%E3%81%97%E3%82%A2%E3%83%97%E3%83%AA/id1570419146?uo=4",
             "developer": "EQUOS RESEARCH CO.,LTD.",
             "latest": {
-                "version": "18.21.10",
-                "updated": 1793291883,
-                "recentChanges": "本バージョンでは下記対応を行いました。\n・画面レイアウトが崩れるバグの対応",
-                "changelogHash": "sha256:f7fde2fe148c3543a0e6da4ae32acacb81c087df8d0d1f023cd1b3704ee0851a",
-                "fetchedAt": "2026-10-29T20:06:57Z"
+                "version": "18.21.11",
+                "updated": 1793394528,
+                "recentChanges": "本バージョンでは下記対応を行いました。\n・iOSオフライン音声認識の言語一覧を改善し、言語の追加・削除と上限時の入れ替えに対応しました。\n・画面収録ONで文字起こしの際に、最新発言が見えない問題を修正しました。",
+                "changelogHash": "sha256:8e34e84114abcb435737bcb8967d2e5d228bb428298b2652c028f69b9b079e49",
+                "fetchedAt": "2026-10-31T19:09:48Z"
             },
-            "lastCheckedAt": "2026-10-30T19:52:52Z",
+            "lastCheckedAt": "2026-10-31T19:09:48Z",
             "lastError": null,
             "history": [
                 {
@@ -368,6 +378,16 @@
                     "fetchedAt": "2026-10-29T20:06:57Z",
                     "gapSuspected": false,
                     "versionCompare": "parsed"
+                },
+                {
+                    "version": "18.21.11",
+                    "previousVersion": "18.21.10",
+                    "updated": 1793394528,
+                    "recentChanges": "本バージョンでは下記対応を行いました。\n・iOSオフライン音声認識の言語一覧を改善し、言語の追加・削除と上限時の入れ替えに対応しました。\n・画面収録ONで文字起こしの際に、最新発言が見えない問題を修正しました。",
+                    "changelogHash": "sha256:8e34e84114abcb435737bcb8967d2e5d228bb428298b2652c028f69b9b079e49",
+                    "fetchedAt": "2026-10-31T19:09:48Z",
+                    "gapSuspected": false,
+                    "versionCompare": "parsed"
                 }
             ]
         },
@@ -382,7 +402,7 @@
                 "changelogHash": "sha256:09d3879f5f4819c05c3b55a5eaad585fa10dc4adb4445f0b49122c3b1e5d739f",
                 "fetchedAt": "2026-10-22T19:05:23Z"
             },
-            "lastCheckedAt": "2026-10-30T19:52:53Z",
+            "lastCheckedAt": "2026-10-31T19:09:49Z",
             "lastError": null,
             "history": [
                 {
