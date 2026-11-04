@@ -12,7 +12,7 @@
                 "changelogHash": "sha256:87dc8be7f97034f3279f0f05b2ec770596684637b051737de253ea38a3116db0",
                 "fetchedAt": "2026-10-26T20:21:42Z"
             },
-            "lastCheckedAt": "2026-11-03T20:50:00Z",
+            "lastCheckedAt": "2026-11-04T21:06:35Z",
             "lastError": null,
             "history": [
                 {
@@ -58,7 +58,7 @@
                 "changelogHash": "sha256:f27b5bc680ba3a3f497f20dee3c1faa2a6d874fc5f152354c2b3684011b18aa9",
                 "fetchedAt": "2026-10-26T20:21:42Z"
             },
-            "lastCheckedAt": "2026-11-03T20:50:00Z",
+            "lastCheckedAt": "2026-11-04T21:06:35Z",
             "lastError": null,
             "history": [
                 {
@@ -124,7 +124,7 @@
                 "changelogHash": "sha256:87d514b147e56233468441f3d6049e661c60a51f03d978ccf62db5b5da88e1bb",
                 "fetchedAt": "2026-11-02T23:01:50Z"
             },
-            "lastCheckedAt": "2026-11-03T20:50:06Z",
+            "lastCheckedAt": "2026-11-04T21:06:41Z",
             "lastError": null,
             "history": [
                 {
@@ -170,7 +170,7 @@
                 "changelogHash": "sha256:7b5715704609019be676b5396ee7f318c638c043a27b0262c8352a3eba694331",
                 "fetchedAt": "2026-10-31T19:09:46Z"
             },
-            "lastCheckedAt": "2026-11-03T20:50:02Z",
+            "lastCheckedAt": "2026-11-04T21:06:37Z",
             "lastError": null,
             "history": [
                 {
@@ -276,7 +276,7 @@
                 "changelogHash": "sha256:8e34e84114abcb435737bcb8967d2e5d228bb428298b2652c028f69b9b079e49",
                 "fetchedAt": "2026-10-31T19:09:48Z"
             },
-            "lastCheckedAt": "2026-11-03T20:50:03Z",
+            "lastCheckedAt": "2026-11-04T21:06:38Z",
             "lastError": null,
             "history": [
                 {
@@ -406,13 +406,13 @@
             "url": "https://apps.apple.com/jp/app/yy%E3%83%AC%E3%82%BB%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3-%E7%B0%A1%E5%8D%98%E3%81%A7%E6%89%8B%E8%BB%BD%E3%81%AB%E4%BD%BF%E3%81%88%E3%82%8B%E9%9F%B3%E5%A3%B0%E8%AA%8D%E8%AD%98%E3%82%A2%E3%83%97%E3%83%AA/id6443889584?uo=4",
             "developer": "EQUOS RESEARCH CO.,LTD.",
             "latest": {
-                "version": "6.3.36",
-                "updated": 1792609712,
-                "recentChanges": "本バージョンでは下記対応を行いました。\n・セキュリティを強化しました",
-                "changelogHash": "sha256:09d3879f5f4819c05c3b55a5eaad585fa10dc4adb4445f0b49122c3b1e5d739f",
-                "fetchedAt": "2026-10-22T19:05:23Z"
+                "version": "6.3.37",
+                "updated": 1793753858,
+                "recentChanges": "本バージョンでは下記対応を行いました。\n\n・外部ディスプレイで感情フォントが表示されない問題を修正しました。\n・外部ディスプレイの画面下部の言語表記を改善しました。\n・内部的な品質を改善しました。",
+                "changelogHash": "sha256:767564c37d24b22d1d1f6cdd5cf98dff66938b7d90cd978c96eca8c5293fdf1e",
+                "fetchedAt": "2026-11-04T21:06:39Z"
             },
-            "lastCheckedAt": "2026-11-03T20:50:04Z",
+            "lastCheckedAt": "2026-11-04T21:06:39Z",
             "lastError": null,
             "history": [
                 {
@@ -482,6 +482,16 @@
                     "recentChanges": "本バージョンでは下記対応を行いました。\n・セキュリティを強化しました",
                     "changelogHash": "sha256:09d3879f5f4819c05c3b55a5eaad585fa10dc4adb4445f0b49122c3b1e5d739f",
                     "fetchedAt": "2026-10-22T19:05:23Z",
+                    "gapSuspected": false,
+                    "versionCompare": "parsed"
+                },
+                {
+                    "version": "6.3.37",
+                    "previousVersion": "6.3.36",
+                    "updated": 1793753858,
+                    "recentChanges": "本バージョンでは下記対応を行いました。\n\n・外部ディスプレイで感情フォントが表示されない問題を修正しました。\n・外部ディスプレイの画面下部の言語表記を改善しました。\n・内部的な品質を改善しました。",
+                    "changelogHash": "sha256:767564c37d24b22d1d1f6cdd5cf98dff66938b7d90cd978c96eca8c5293fdf1e",
+                    "fetchedAt": "2026-11-04T21:06:39Z",
                     "gapSuspected": false,
                     "versionCompare": "parsed"
                 }
