@@ -12,7 +12,7 @@
                 "changelogHash": "sha256:87dc8be7f97034f3279f0f05b2ec770596684637b051737de253ea38a3116db0",
                 "fetchedAt": "2026-10-26T20:21:42Z"
             },
-            "lastCheckedAt": "2026-11-08T19:25:41Z",
+            "lastCheckedAt": "2026-11-09T23:43:17Z",
             "lastError": null,
             "history": [
                 {
@@ -58,7 +58,7 @@
                 "changelogHash": "sha256:f27b5bc680ba3a3f497f20dee3c1faa2a6d874fc5f152354c2b3684011b18aa9",
                 "fetchedAt": "2026-11-06T20:44:34Z"
             },
-            "lastCheckedAt": "2026-11-08T19:25:42Z",
+            "lastCheckedAt": "2026-11-09T23:43:18Z",
             "lastError": null,
             "history": [
                 {
@@ -134,7 +134,7 @@
                 "changelogHash": "sha256:3cf927193dcb59ce366869e5ac398cfda1ad1c3e3eac2c46f2315b88103f1c61",
                 "fetchedAt": "2026-11-06T20:44:40Z"
             },
-            "lastCheckedAt": "2026-11-08T19:25:47Z",
+            "lastCheckedAt": "2026-11-09T23:43:24Z",
             "lastError": null,
             "history": [
                 {
@@ -184,13 +184,13 @@
             "url": "https://apps.apple.com/jp/app/yyprobe-%E4%BC%9A%E8%A9%B1%E3%81%AE%E5%8F%AF%E8%A6%96%E5%8C%96%E3%82%A2%E3%83%97%E3%83%AA/id1493896577?uo=4",
             "developer": "EQUOS RESEARCH CO.,LTD.",
             "latest": {
-                "version": "9.6.47",
-                "updated": 1793906010,
-                "recentChanges": "本バージョンでは下記対応を行いました。\n・セキュリティ対策と内部処理の改善を行いました。",
-                "changelogHash": "sha256:825dca3c501802bd77206883480595e1ad47a16fbdc92bb074f731d4536da7d8",
-                "fetchedAt": "2026-11-05T21:23:48Z"
+                "version": "9.6.48",
+                "updated": 1794262820,
+                "recentChanges": "本バージョンでは下記対応を行いました。\n\n・内部的な品質を改善しました。",
+                "changelogHash": "sha256:1a689e640d85afa31481d9822b54549caf7875a05b985688f136f2f6bc042a2a",
+                "fetchedAt": "2026-11-09T23:43:19Z"
             },
-            "lastCheckedAt": "2026-11-08T19:25:43Z",
+            "lastCheckedAt": "2026-11-09T23:43:19Z",
             "lastError": null,
             "history": [
                 {
@@ -292,6 +292,16 @@
                     "fetchedAt": "2026-11-05T21:23:48Z",
                     "gapSuspected": true,
                     "versionCompare": "parsed"
+                },
+                {
+                    "version": "9.6.48",
+                    "previousVersion": "9.6.47",
+                    "updated": 1794262820,
+                    "recentChanges": "本バージョンでは下記対応を行いました。\n\n・内部的な品質を改善しました。",
+                    "changelogHash": "sha256:1a689e640d85afa31481d9822b54549caf7875a05b985688f136f2f6bc042a2a",
+                    "fetchedAt": "2026-11-09T23:43:19Z",
+                    "gapSuspected": false,
+                    "versionCompare": "parsed"
                 }
             ]
         },
@@ -300,13 +310,13 @@
             "url": "https://apps.apple.com/jp/app/yy%E6%96%87%E5%AD%97%E8%B5%B7%E3%81%93%E3%81%97-%E9%AB%98%E6%80%A7%E8%83%BD%E3%81%A7%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%AA%E6%96%87%E5%AD%97%E8%B5%B7%E3%81%93%E3%81%97%E3%82%A2%E3%83%97%E3%83%AA/id1570419146?uo=4",
             "developer": "EQUOS RESEARCH CO.,LTD.",
             "latest": {
-                "version": "18.22.0",
-                "updated": 1794100743,
-                "recentChanges": "本バージョンでは下記対応を行いました\n・縦書き原稿用紙モード",
-                "changelogHash": "sha256:865b0dcec5d95dffa6ac496fbc77190963f9f4d1cf8bd47a4ed955ba6854568a",
-                "fetchedAt": "2026-11-08T19:25:44Z"
+                "version": "18.22.1",
+                "updated": 1794262678,
+                "recentChanges": "本バージョンでは下記対応を行いました。\n\n・通信状態に応じたオンライン／オフライン音声認識の切り替え処理を改善しました。\n・縦書き表示への切り替え時などに、オノマトペの表示が残る不具合を修正しました。",
+                "changelogHash": "sha256:2bedd2fb256273b3c9063b390085998077b04d87753bacd7f155b0882a072462",
+                "fetchedAt": "2026-11-09T23:43:21Z"
             },
-            "lastCheckedAt": "2026-11-08T19:25:44Z",
+            "lastCheckedAt": "2026-11-09T23:43:21Z",
             "lastError": null,
             "history": [
                 {
@@ -448,6 +458,16 @@
                     "fetchedAt": "2026-11-08T19:25:44Z",
                     "gapSuspected": false,
                     "versionCompare": "parsed"
+                },
+                {
+                    "version": "18.22.1",
+                    "previousVersion": "18.22.0",
+                    "updated": 1794262678,
+                    "recentChanges": "本バージョンでは下記対応を行いました。\n\n・通信状態に応じたオンライン／オフライン音声認識の切り替え処理を改善しました。\n・縦書き表示への切り替え時などに、オノマトペの表示が残る不具合を修正しました。",
+                    "changelogHash": "sha256:2bedd2fb256273b3c9063b390085998077b04d87753bacd7f155b0882a072462",
+                    "fetchedAt": "2026-11-09T23:43:21Z",
+                    "gapSuspected": false,
+                    "versionCompare": "parsed"
                 }
             ]
         },
@@ -462,7 +482,7 @@
                 "changelogHash": "sha256:767564c37d24b22d1d1f6cdd5cf98dff66938b7d90cd978c96eca8c5293fdf1e",
                 "fetchedAt": "2026-11-04T21:06:39Z"
             },
-            "lastCheckedAt": "2026-11-08T19:25:45Z",
+            "lastCheckedAt": "2026-11-09T23:43:22Z",
             "lastError": null,
             "history": [
                 {
