@@ -12,7 +12,7 @@
                 "changelogHash": "sha256:87dc8be7f97034f3279f0f05b2ec770596684637b051737de253ea38a3116db0",
                 "fetchedAt": "2026-10-26T20:21:42Z"
             },
-            "lastCheckedAt": "2026-11-12T21:46:51Z",
+            "lastCheckedAt": "2026-11-13T21:16:34Z",
             "lastError": null,
             "history": [
                 {
@@ -58,7 +58,7 @@
                 "changelogHash": "sha256:f27b5bc680ba3a3f497f20dee3c1faa2a6d874fc5f152354c2b3684011b18aa9",
                 "fetchedAt": "2026-11-06T20:44:34Z"
             },
-            "lastCheckedAt": "2026-11-12T21:46:51Z",
+            "lastCheckedAt": "2026-11-13T21:16:34Z",
             "lastError": null,
             "history": [
                 {
@@ -134,7 +134,7 @@
                 "changelogHash": "sha256:3cf927193dcb59ce366869e5ac398cfda1ad1c3e3eac2c46f2315b88103f1c61",
                 "fetchedAt": "2026-11-06T20:44:40Z"
             },
-            "lastCheckedAt": "2026-11-12T21:46:57Z",
+            "lastCheckedAt": "2026-11-13T21:16:40Z",
             "lastError": null,
             "history": [
                 {
@@ -184,13 +184,13 @@
             "url": "https://apps.apple.com/jp/app/yyprobe-%E4%BC%9A%E8%A9%B1%E3%81%AE%E5%8F%AF%E8%A6%96%E5%8C%96%E3%82%A2%E3%83%97%E3%83%AA/id1493896577?uo=4",
             "developer": "EQUOS RESEARCH CO.,LTD.",
             "latest": {
-                "version": "9.6.49",
-                "updated": 1794359821,
-                "recentChanges": "本バージョンでは下記対応を行いました。\n\n・メッセージ表示ボタンの表示・非表示を切り替えられるようになりました。\n・内部的な品質を改善しました。",
-                "changelogHash": "sha256:63f38fc6e9e7d334611418d770d3428d3dab4db28edd8510c466756c97027c91",
-                "fetchedAt": "2026-11-11T21:47:43Z"
+                "version": "4.6.50",
+                "updated": 1794433299,
+                "recentChanges": "本バージョンでは下記対応を行いました。\n\n・内部的な品質を改善しました。",
+                "changelogHash": "sha256:1a689e640d85afa31481d9822b54549caf7875a05b985688f136f2f6bc042a2a",
+                "fetchedAt": "2026-11-13T21:16:35Z"
             },
-            "lastCheckedAt": "2026-11-12T21:46:53Z",
+            "lastCheckedAt": "2026-11-13T21:16:35Z",
             "lastError": null,
             "history": [
                 {
@@ -312,6 +312,16 @@
                     "fetchedAt": "2026-11-11T21:47:43Z",
                     "gapSuspected": false,
                     "versionCompare": "parsed"
+                },
+                {
+                    "version": "4.6.50",
+                    "previousVersion": "9.6.49",
+                    "updated": 1794433299,
+                    "recentChanges": "本バージョンでは下記対応を行いました。\n\n・内部的な品質を改善しました。",
+                    "changelogHash": "sha256:1a689e640d85afa31481d9822b54549caf7875a05b985688f136f2f6bc042a2a",
+                    "fetchedAt": "2026-11-13T21:16:35Z",
+                    "gapSuspected": true,
+                    "versionCompare": "parsed"
                 }
             ]
         },
@@ -326,7 +336,7 @@
                 "changelogHash": "sha256:7d6f8ecd9e83a70764b1c968a82c8b4975d4a69118666eb0da88b60f40bf5b13",
                 "fetchedAt": "2026-11-11T21:47:44Z"
             },
-            "lastCheckedAt": "2026-11-12T21:46:54Z",
+            "lastCheckedAt": "2026-11-13T21:16:37Z",
             "lastError": null,
             "history": [
                 {
@@ -496,13 +506,13 @@
             "url": "https://apps.apple.com/jp/app/yy%E3%83%AC%E3%82%BB%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3-%E7%B0%A1%E5%8D%98%E3%81%A7%E6%89%8B%E8%BB%BD%E3%81%AB%E4%BD%BF%E3%81%88%E3%82%8B%E9%9F%B3%E5%A3%B0%E8%AA%8D%E8%AD%98%E3%82%A2%E3%83%97%E3%83%AA/id6443889584?uo=4",
             "developer": "EQUOS RESEARCH CO.,LTD.",
             "latest": {
-                "version": "6.3.38",
-                "updated": 1794422693,
-                "recentChanges": "本バージョンでは下記対応を行いました。\n\n・アプリ内課金での利用時間の購入を停止しました。\n・内部的な品質を改善しました。",
-                "changelogHash": "sha256:2488b404a587862e9edab043843d3d48db3e51f8d20b7d192c24d93467dd4db8",
-                "fetchedAt": "2026-11-11T21:47:46Z"
+                "version": "6.3.39",
+                "updated": 1794502875,
+                "recentChanges": "本バージョンでは下記対応を行いました。\n\n・内部的な品質を改善しました。",
+                "changelogHash": "sha256:1a689e640d85afa31481d9822b54549caf7875a05b985688f136f2f6bc042a2a",
+                "fetchedAt": "2026-11-13T21:16:38Z"
             },
-            "lastCheckedAt": "2026-11-12T21:46:55Z",
+            "lastCheckedAt": "2026-11-13T21:16:38Z",
             "lastError": null,
             "history": [
                 {
@@ -592,6 +602,16 @@
                     "recentChanges": "本バージョンでは下記対応を行いました。\n\n・アプリ内課金での利用時間の購入を停止しました。\n・内部的な品質を改善しました。",
                     "changelogHash": "sha256:2488b404a587862e9edab043843d3d48db3e51f8d20b7d192c24d93467dd4db8",
                     "fetchedAt": "2026-11-11T21:47:46Z",
+                    "gapSuspected": false,
+                    "versionCompare": "parsed"
+                },
+                {
+                    "version": "6.3.39",
+                    "previousVersion": "6.3.38",
+                    "updated": 1794502875,
+                    "recentChanges": "本バージョンでは下記対応を行いました。\n\n・内部的な品質を改善しました。",
+                    "changelogHash": "sha256:1a689e640d85afa31481d9822b54549caf7875a05b985688f136f2f6bc042a2a",
+                    "fetchedAt": "2026-11-13T21:16:38Z",
                     "gapSuspected": false,
                     "versionCompare": "parsed"
                 }
