@@ -12,7 +12,7 @@
                 "changelogHash": "sha256:5c539a0c669404ca1970b7cac89c8710ef1a937dd0e8e8066164ad3e2c505f69",
                 "fetchedAt": "2026-11-19T22:36:45Z"
             },
-            "lastCheckedAt": "2026-11-21T20:49:43Z",
+            "lastCheckedAt": "2026-11-22T20:57:31Z",
             "lastError": null,
             "history": [
                 {
@@ -78,7 +78,7 @@
                 "changelogHash": "sha256:f27b5bc680ba3a3f497f20dee3c1faa2a6d874fc5f152354c2b3684011b18aa9",
                 "fetchedAt": "2026-11-06T20:44:34Z"
             },
-            "lastCheckedAt": "2026-11-21T20:49:44Z",
+            "lastCheckedAt": "2026-11-22T20:57:31Z",
             "lastError": null,
             "history": [
                 {
@@ -154,7 +154,7 @@
                 "changelogHash": "sha256:3cf927193dcb59ce366869e5ac398cfda1ad1c3e3eac2c46f2315b88103f1c61",
                 "fetchedAt": "2026-11-06T20:44:40Z"
             },
-            "lastCheckedAt": "2026-11-21T20:49:49Z",
+            "lastCheckedAt": "2026-11-22T20:57:37Z",
             "lastError": null,
             "history": [
                 {
@@ -210,7 +210,7 @@
                 "changelogHash": "sha256:145c66f3b3ca7f2b0fbcc8d73571e2b504a777c23b87883c88cbe701c8856fbc",
                 "fetchedAt": "2026-11-21T20:49:45Z"
             },
-            "lastCheckedAt": "2026-11-21T20:49:45Z",
+            "lastCheckedAt": "2026-11-22T20:57:32Z",
             "lastError": null,
             "history": [
                 {
@@ -386,7 +386,7 @@
                 "changelogHash": "sha256:145030bef3bc5d01f22220180735e94bd3126c66a9992d4bb2c903370bddb878",
                 "fetchedAt": "2026-11-21T20:49:46Z"
             },
-            "lastCheckedAt": "2026-11-21T20:49:46Z",
+            "lastCheckedAt": "2026-11-22T20:57:33Z",
             "lastError": null,
             "history": [
                 {
@@ -572,7 +572,7 @@
                 "changelogHash": "sha256:145c66f3b3ca7f2b0fbcc8d73571e2b504a777c23b87883c88cbe701c8856fbc",
                 "fetchedAt": "2026-11-21T20:49:47Z"
             },
-            "lastCheckedAt": "2026-11-21T20:49:47Z",
+            "lastCheckedAt": "2026-11-22T20:57:35Z",
             "lastError": null,
             "history": [
                 {
