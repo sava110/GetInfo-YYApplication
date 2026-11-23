@@ -1,5 +1,5 @@
 /**
- * GitHub 上の history.json を読み、どれか1アプリでも更新があれば1行追加する。
+ * GitHub 上の history.json を読み、アプリごとの列に古い履歴から順に並べる。
  *
  * セットアップ:
  * 1. 対象スプレッドシートで 拡張機能 → Apps Script を開き、このファイルの内容を貼る
@@ -9,9 +9,10 @@
  *
  * 書き込みタイミング:
  *   GitHub Actions が 00:00 JST 前後に history.json を更新し、このスクリプトは 06:00 JST 前後にそれを読む。
- *   対象アプリが1つも変わっていなければシートは触らない。変わっていれば末尾に1行足す。
+ *   アプリごとに既存データの空行を詰め、最終行のすぐ下に新しい履歴を古い順に足す。
+ *   データが空のアプリは、GitHub に保存されている最初の履歴から取り込む。
  *   iOS / デスクトップは Ver の変化だけで記入。Android は Ver またはアプデ文面の変化で記入。
- *   変わっていないアプリの列は空白。反映済み・記事URLは常に空白（人が書く）。過去行は上書きしない。
+ *   既存データを詰めるときは反映済み・記事URLも一緒に移動する。新規行の入力は人が行う。
  *
  * 既存の週次表（シート1 など）は触らない。無いときは「自動取得」シートを作る。
  */
@@ -63,9 +64,19 @@ function createNoonTrigger() {
 
 function syncFromGitHub() {
   var document = fetchHistoryJson_();
-  var sheet = getOrCreateSheet_();
-  ensureHeaders_(sheet);
-  appendRowIfUpdated_(sheet, document);
+  var lock = LockService.getDocumentLock();
+  lock.waitLock(30000);
+  try {
+    var sheet = getOrCreateSheet_();
+    ensureHeaders_(sheet);
+    syncAppHistories_(sheet, document);
+  } finally {
+    try {
+      SpreadsheetApp.flush();
+    } finally {
+      lock.releaseLock();
+    }
+  }
 }
 
 function fetchHistoryJson_() {
@@ -131,76 +142,118 @@ function ensureHeaders_(sheet) {
   });
 }
 
-function appendRowIfUpdated_(sheet, document) {
+function syncAppHistories_(sheet, document) {
   var apps = document && document.apps && typeof document.apps === "object" ? document.apps : {};
   var width = APPS.length * COLS_PER_APP;
-  var previous = lastWrittenState_(sheet);
-  var next = [];
-  var anyUpdated = false;
-
+  var height = sheet.getLastRow() - DATA_ROW + 1;
+  var data = height > 0 ? sheet.getRange(DATA_ROW, 1, height, width) : null;
+  var values = data ? data.getValues() : [];
+  var formulas = data ? data.getFormulas() : [];
+  var notes = data ? data.getNotes() : [];
   APPS.forEach(function (app, index) {
-    var latest = (apps[app.id] && apps[app.id].latest) || {};
-    var version = latest.version == null ? "" : String(latest.version);
-    var changes = latest.recentChanges == null ? "" : String(latest.recentChanges);
-    var changed = appUpdated_(app, previous[index], version, changes);
-    if (changed) {
-      anyUpdated = true;
-      next.push(
-        formatFetchedAt_(latest.fetchedAt),
-        version,
-        changes,
-        "",
-        ""
-      );
+    var offset = index * COLS_PER_APP;
+    var column = offset + 1;
+    var nextRow = DATA_ROW;
+    var lastEntry = null;
+    values.forEach(function (row, rowIndex) {
+      var cells = row.slice(offset, offset + COLS_PER_APP);
+      var occupied = cells.some(function (value, cellIndex) {
+        var i = offset + cellIndex;
+        return value !== "" || formulas[rowIndex][i] !== "" || notes[rowIndex][i] !== "";
+      });
+      if (!occupied) {
+        return;
+      }
+      var sourceRow = DATA_ROW + rowIndex;
+      if (sourceRow !== nextRow) {
+        sheet.getRange(sourceRow, column, 1, COLS_PER_APP)
+          .moveTo(sheet.getRange(nextRow, column, 1, COLS_PER_APP));
+      }
+      nextRow++;
+      if (cells[1] !== "" || cells[2] !== "") {
+        lastEntry = [cells[0], String(cells[1]), String(cells[2])];
+      }
+    });
+
+    var pending = pendingHistory_(app, apps[app.id] || {}, lastEntry);
+    if (!pending.length) {
+      return;
+    }
+    var rows = sheet.getMaxRows();
+    var endRow = nextRow + pending.length - 1;
+    if (endRow > rows) {
+      sheet.insertRowsAfter(rows, endRow - rows);
+    }
+    sheet.getRange(nextRow, column + 1, pending.length, 1).setNumberFormat("@");
+    sheet.getRange(nextRow, column + 2, pending.length, 1).setWrap(true);
+    sheet.getRange(nextRow, column, pending.length, 3).setValues(pending);
+  });
+}
+
+function pendingHistory_(app, record, lastEntry) {
+  var history = Array.isArray(record.history) && record.history.length
+    ? record.history
+    : record.latest ? [record.latest] : [];
+  var entries = history.map(function (entry) {
+    return [
+      formatFetchedAt_(entry.fetchedAt),
+      entry.version == null ? "" : String(entry.version),
+      entry.recentChanges == null ? "" : String(entry.recentChanges),
+    ];
+  });
+  if (lastEntry) {
+    // 日時も照合して、同じバージョンが後日再登場した場合を区別する。
+    var stamp = sheetTimestamp_(lastEntry[0]);
+    var anchor = entries.length - 1;
+    for (; anchor >= 0; anchor--) {
+      var entry = entries[anchor];
+      if ((!stamp || entry[0].slice(0, stamp.length) === stamp)
+          && entry[1] === lastEntry[1] && (!app.android || entry[2] === lastEntry[2])) {
+        break;
+      }
+    }
+    if (anchor >= 0) {
+      entries = entries.slice(anchor + 1);
+    } else if (stamp) {
+      entries = entries.filter(function (entry) {
+        return entry[0].slice(0, stamp.length) > stamp;
+      });
     } else {
-      next.push("", "", "", "", "");
+      entries = entries.slice(-1);
+    }
+  }
+
+  var previous = lastEntry || ["", "", ""];
+  var pending = [];
+  entries.forEach(function (entry) {
+    if (appUpdated_(app, previous, entry[1], entry[2])) {
+      pending.push(entry);
+      previous = entry;
     }
   });
-
-  if (!anyUpdated) {
-    return;
-  }
-
-  var row = Math.max(sheet.getLastRow() + 1, DATA_ROW);
-  sheet.getRange(row, 1, 1, width).setValues([next]);
-  for (var j = 0; j < APPS.length; j++) {
-    sheet.getRange(row, j * COLS_PER_APP + 3).setWrap(true);
-  }
+  return pending;
 }
 
 function appUpdated_(app, previous, version, changes) {
   if (app.android) {
     return (
       (version !== "" || changes !== "") &&
-      (version !== previous.version || changes !== previous.changes)
+      (version !== previous[1] || changes !== previous[2])
     );
   }
-  return version !== "" && version !== previous.version;
+  return version !== "" && version !== previous[1];
 }
 
-function lastWrittenState_(sheet) {
-  var lastRow = sheet.getLastRow();
-  var states = APPS.map(function () {
-    return { version: "", changes: "" };
-  });
-  if (lastRow < DATA_ROW) {
-    return states;
+function sheetTimestamp_(value) {
+  if (value instanceof Date) {
+    return Utilities.formatDate(value, "Asia/Tokyo", "yyyy/MM/dd HH:mm");
   }
-  var width = APPS.length * COLS_PER_APP;
-  var values = sheet.getRange(DATA_ROW, 1, lastRow - DATA_ROW + 1, width).getValues();
-  for (var r = values.length - 1; r >= 0; r--) {
-    for (var i = 0; i < APPS.length; i++) {
-      if (states[i].version !== "" || states[i].changes !== "") {
-        continue;
-      }
-      var writtenVersion = String(values[r][i * COLS_PER_APP + 1] || "");
-      var writtenChanges = String(values[r][i * COLS_PER_APP + 2] || "");
-      if (writtenVersion !== "" || writtenChanges !== "") {
-        states[i] = { version: writtenVersion, changes: writtenChanges };
-      }
-    }
+  var match = /^(\d{4})[/-](\d{1,2})[/-](\d{1,2})(?:\s+(\d{1,2}):(\d{2})(?::\d{2})?)?$/.exec(String(value).trim());
+  if (!match) {
+    return "";
   }
-  return states;
+  var date = [match[1], match[2].padStart(2, "0"), match[3].padStart(2, "0")].join("/");
+  return match[4] ? date + " " + match[4].padStart(2, "0") + ":" + match[5] : date;
 }
 
 function formatFetchedAt_(value) {
