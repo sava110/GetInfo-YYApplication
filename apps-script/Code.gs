@@ -18,7 +18,7 @@
 
 var SHEET_NAME = "自動取得";
 var GITHUB_OWNER = "sava110";
-var GITHUB_REPO = "GetInfo-PlayStore";
+var GITHUB_REPO = "GetInfo-YYApplication";
 var GITHUB_REF = "my-project";
 var GITHUB_PATH = "data/history.json";
 
@@ -33,6 +33,10 @@ var APPS = [
   { label: "YYProbe Android", id: "yyprobe.yysystem.android", android: true },
   { label: "YYレセプション", id: "com.yysystem.YYReceptionWindow" },
   { label: "YYデスクトップ字幕", id: "yysystem.yydesktopcaption" },
+  { label: "YYサイレンアラート", id: "YYSystem.YYEmergencySound" },
+  { label: "YY雰囲気カメラ", id: "YYSystem.YYAtmosphereCamera" },
+  { label: "YY発音分析", id: "com.yysystem.YYSpeechAssessment" },
+  { label: "YYCommCards", id: "com.yysystem.YYCommCards" },
 ];
 
 function onOpen() {
@@ -79,7 +83,7 @@ function fetchHistoryJson_() {
   var response = UrlFetchApp.fetch(url, {
     muteHttpExceptions: true,
     headers: {
-      "User-Agent": "GetInfo-PlayStore-sheets",
+      "User-Agent": "GetInfo-YYApplication-sheets",
     },
   });
   var code = response.getResponseCode();
@@ -100,6 +104,10 @@ function getOrCreateSheet_() {
 
 function ensureHeaders_(sheet) {
   var width = APPS.length * COLS_PER_APP;
+  var columns = sheet.getMaxColumns();
+  if (columns < width) {
+    sheet.insertColumnsAfter(columns, width - columns);
+  }
   var names = [];
   var fields = [];
   APPS.forEach(function (app) {

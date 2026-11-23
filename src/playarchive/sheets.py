@@ -18,6 +18,10 @@ COLUMNS: tuple[tuple[str, str], ...] = (
     ("YYProbe Android", "yyprobe.yysystem.android"),
     ("YYレセプション", "com.yysystem.YYReceptionWindow"),
     ("YYデスクトップ字幕", "yysystem.yydesktopcaption"),
+    ("YYサイレンアラート", "YYSystem.YYEmergencySound"),
+    ("YY雰囲気カメラ", "YYSystem.YYAtmosphereCamera"),
+    ("YY発音分析", "com.yysystem.YYSpeechAssessment"),
+    ("YYCommCards", "com.yysystem.YYCommCards"),
 )
 
 HEADER_APPS = tuple(label for group in COLUMNS for label in (group[0], "", ""))
@@ -72,6 +76,8 @@ def write_table(table: list[list[str]], config: Config, client=None) -> str:
     width = max(len(row) for row in table)
     end_column = _column_letter(width)
     try:
+        if worksheet.col_count < width:
+            worksheet.add_cols(width - worksheet.col_count)
         worksheet.update(range_name=f"A1:{end_column}{len(table)}", values=table)
     except Exception as exc:
         raise SheetsError(f"シートへ書き込めません: {exc}") from exc
@@ -82,8 +88,7 @@ def _worksheet(spreadsheet, name: str):
     try:
         return spreadsheet.worksheet(name)
     except Exception:
-        columns = len(HEADER_APPS)
-        return spreadsheet.add_worksheet(title=name, rows=10, cols=max(columns, 18))
+        return spreadsheet.add_worksheet(title=name, rows=10, cols=len(HEADER_APPS))
 
 
 def _gspread_client(config: Config):

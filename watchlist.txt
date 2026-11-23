@@ -4,3 +4,7 @@ yytranscript.yysystem.android
 ios com.yysystem.YYProbe-Lite
 ios com.yysystem.YYSimpleTranscript
 ios com.yysystem.YYReceptionWindow
+ios YYSystem.YYEmergencySound
+ios YYSystem.YYAtmosphereCamera
+ios com.yysystem.YYSpeechAssessment
+ios com.yysystem.YYCommCards

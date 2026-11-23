@@ -78,13 +78,26 @@ def sample_document():
                     "recentChanges": "画面表示の不具合を修正",
                 }
             },
+            "com.yysystem.YYCommCards": {
+                "latest": {
+                    "version": "1.2.6",
+                    "updated": int(
+                        datetime(2026, 8, 7, 15, 23, 10, tzinfo=timezone.utc).timestamp()
+                    ),
+                    "recentChanges": "表示を改善しました",
+                }
+            },
         },
     }
 
 
 class FakeWorksheet:
-    def __init__(self):
+    def __init__(self, cols):
+        self.col_count = cols
         self.updated = None
+
+    def add_cols(self, cols):
+        self.col_count += cols
 
     def update(self, range_name, values):
         self.updated = (range_name, values)
@@ -94,7 +107,7 @@ class FakeSpreadsheet:
     def __init__(self, names):
         self.names = names
         self.added = None
-        self.worksheets = {name: FakeWorksheet() for name in names}
+        self.worksheets = {name: FakeWorksheet(18) for name in names}
 
     def worksheet(self, name):
         if name not in self.worksheets:
@@ -102,7 +115,7 @@ class FakeSpreadsheet:
         return self.worksheets[name]
 
     def add_worksheet(self, title, rows, cols):
-        sheet = FakeWorksheet()
+        sheet = FakeWorksheet(cols)
         self.added = (title, rows, cols)
         self.worksheets[title] = sheet
         return sheet
@@ -129,6 +142,10 @@ class SheetsLayoutTest(unittest.TestCase):
                 "YYProbe Android",
                 "YYレセプション",
                 "YYデスクトップ字幕",
+                "YYサイレンアラート",
+                "YY雰囲気カメラ",
+                "YY発音分析",
+                "YYCommCards",
             ],
         )
         table = build_table(sample_document())
@@ -139,14 +156,15 @@ class SheetsLayoutTest(unittest.TestCase):
         self.assertEqual(table[2][3:6], ["26/09/22", "2.8.2", "韓国語のローカライズ対応"])
         self.assertEqual(table[2][10], "Varies with device")
         self.assertEqual(table[2][15:18], ["26/08/06", "4.0.7", "画面表示の不具合を修正"])
-        self.assertEqual(len(table[2]), 18)
-        self.assertEqual(len(HEADER_APPS), 18)
-        self.assertEqual(len(HEADER_FIELDS), 18)
+        self.assertEqual(table[2][27:30], ["26/08/08", "1.2.6", "表示を改善しました"])
+        self.assertEqual(len(table[2]), 30)
+        self.assertEqual(len(HEADER_APPS), 30)
+        self.assertEqual(len(HEADER_FIELDS), 30)
 
     def test_missing_app_leaves_three_empty_cells(self):
         self.assertEqual(cells_for_app(None), ["", "", ""])
         table = build_table({"schemaVersion": 1, "apps": {}})
-        self.assertEqual(table[2], [""] * 18)
+        self.assertEqual(table[2], [""] * 30)
 
     def test_tokyo_date_from_utc_timestamp(self):
         stamp = int(datetime(2026, 9, 27, 22, 38, 45, tzinfo=timezone.utc).timestamp())
@@ -169,9 +187,9 @@ class SheetsLayoutTest(unittest.TestCase):
         name = write_table(build_table(sample_document()), config, client=client)
         self.assertEqual(name, "自動取得")
         self.assertEqual(client.opened, "sheet-id")
-        self.assertEqual(spreadsheet.added[0], "自動取得")
+        self.assertEqual(spreadsheet.added, ("自動取得", 10, 30))
         written = spreadsheet.worksheets["自動取得"].updated
-        self.assertEqual(written[0], "A1:R3")
+        self.assertEqual(written[0], "A1:AD3")
         self.assertEqual(written[1][0][0], "YY文字起こし iOS")
         self.assertNotIn("シート1", spreadsheet.added)
 
@@ -195,7 +213,9 @@ class SheetsLayoutTest(unittest.TestCase):
             spreadsheet = FakeSpreadsheet(["自動取得"])
             code = run_sheets(config, client=FakeClient(spreadsheet))
             self.assertEqual(code, 0)
-            values = spreadsheet.worksheets["自動取得"].updated[1]
+            sheet = spreadsheet.worksheets["自動取得"]
+            self.assertEqual(sheet.col_count, 30)
+            values = sheet.updated[1]
             self.assertEqual(values[2][1], "18.20.16")
 
 

@@ -12,7 +12,7 @@
                 "changelogHash": "sha256:5c539a0c669404ca1970b7cac89c8710ef1a937dd0e8e8066164ad3e2c505f69",
                 "fetchedAt": "2026-11-19T22:36:45Z"
             },
-            "lastCheckedAt": "2026-11-22T20:57:31Z",
+            "lastCheckedAt": "2026-11-23T02:55:16Z",
             "lastError": null,
             "history": [
                 {
@@ -78,7 +78,7 @@
                 "changelogHash": "sha256:f27b5bc680ba3a3f497f20dee3c1faa2a6d874fc5f152354c2b3684011b18aa9",
                 "fetchedAt": "2026-11-06T20:44:34Z"
             },
-            "lastCheckedAt": "2026-11-22T20:57:31Z",
+            "lastCheckedAt": "2026-11-23T02:55:16Z",
             "lastError": null,
             "history": [
                 {
@@ -154,7 +154,7 @@
                 "changelogHash": "sha256:3cf927193dcb59ce366869e5ac398cfda1ad1c3e3eac2c46f2315b88103f1c61",
                 "fetchedAt": "2026-11-06T20:44:40Z"
             },
-            "lastCheckedAt": "2026-11-22T20:57:37Z",
+            "lastCheckedAt": "2026-11-23T02:55:28Z",
             "lastError": null,
             "history": [
                 {
@@ -210,7 +210,7 @@
                 "changelogHash": "sha256:145c66f3b3ca7f2b0fbcc8d73571e2b504a777c23b87883c88cbe701c8856fbc",
                 "fetchedAt": "2026-11-21T20:49:45Z"
             },
-            "lastCheckedAt": "2026-11-22T20:57:32Z",
+            "lastCheckedAt": "2026-11-23T02:55:18Z",
             "lastError": null,
             "history": [
                 {
@@ -386,7 +386,7 @@
                 "changelogHash": "sha256:145030bef3bc5d01f22220180735e94bd3126c66a9992d4bb2c903370bddb878",
                 "fetchedAt": "2026-11-21T20:49:46Z"
             },
-            "lastCheckedAt": "2026-11-22T20:57:33Z",
+            "lastCheckedAt": "2026-11-23T02:55:19Z",
             "lastError": null,
             "history": [
                 {
@@ -572,7 +572,7 @@
                 "changelogHash": "sha256:145c66f3b3ca7f2b0fbcc8d73571e2b504a777c23b87883c88cbe701c8856fbc",
                 "fetchedAt": "2026-11-21T20:49:47Z"
             },
-            "lastCheckedAt": "2026-11-22T20:57:35Z",
+            "lastCheckedAt": "2026-11-23T02:55:21Z",
             "lastError": null,
             "history": [
                 {
@@ -692,6 +692,110 @@
                     "recentChanges": "本バージョンでは下記対応を行いました。\n\n・AiLENSにシアターモード機能を追加しました。\n（ファームウェアバージョン10.7.13以上が必要です）",
                     "changelogHash": "sha256:145c66f3b3ca7f2b0fbcc8d73571e2b504a777c23b87883c88cbe701c8856fbc",
                     "fetchedAt": "2026-11-21T20:49:47Z",
+                    "gapSuspected": false,
+                    "versionCompare": "parsed"
+                }
+            ]
+        },
+        "YYSystem.YYEmergencySound": {
+            "title": "YYサイレンアラート -緊急車両などの知りたい音を可視化-",
+            "url": "https://apps.apple.com/jp/app/yy%E3%82%B5%E3%82%A4%E3%83%AC%E3%83%B3%E3%82%A2%E3%83%A9%E3%83%BC%E3%83%88-%E7%B7%8A%E6%80%A5%E8%BB%8A%E4%B8%A1%E3%81%AA%E3%81%A9%E3%81%AE%E7%9F%A5%E3%82%8A%E3%81%9F%E3%81%84%E9%9F%B3%E3%82%92%E5%8F%AF%E8%A6%96%E5%8C%96/id6450823634?uo=4",
+            "developer": "EQUOS RESEARCH CO.,LTD.",
+            "latest": {
+                "version": "1.3.0",
+                "updated": 1740676026,
+                "recentChanges": "本バージョンでは下記対応を行いました。\n・iOS18のバックグラウンド動作に対応",
+                "changelogHash": "sha256:eb9dfca399b36b93041a73732965e7ef1300c09929b026847d794c07b813f227",
+                "fetchedAt": "2026-11-23T02:50:11Z"
+            },
+            "lastCheckedAt": "2026-11-23T02:55:23Z",
+            "lastError": null,
+            "history": [
+                {
+                    "version": "1.3.0",
+                    "previousVersion": null,
+                    "updated": 1740676026,
+                    "recentChanges": "本バージョンでは下記対応を行いました。\n・iOS18のバックグラウンド動作に対応",
+                    "changelogHash": "sha256:eb9dfca399b36b93041a73732965e7ef1300c09929b026847d794c07b813f227",
+                    "fetchedAt": "2026-11-23T02:50:11Z",
+                    "gapSuspected": false,
+                    "versionCompare": "parsed"
+                }
+            ]
+        },
+        "YYSystem.YYAtmosphereCamera": {
+            "title": "YY雰囲気カメラ",
+            "url": "https://apps.apple.com/jp/app/yy%E9%9B%B0%E5%9B%B2%E6%B0%97%E3%82%AB%E3%83%A1%E3%83%A9/id1625840619?uo=4",
+            "developer": "EQUOS RESEARCH CO.,LTD.",
+            "latest": {
+                "version": "4.2.3",
+                "updated": 1793927618,
+                "recentChanges": "本バージョンでは下記対応を行いました。\n・セキュリティ対策を実施しました。\n・画面表示と動作の安定性を改善しました。\n・弾幕共有機能を終了しました。端末内の弾幕表示は引き続き利用できます。\n・利用時間などの上限設定を見直しました。",
+                "changelogHash": "sha256:ab0c355ec214985c19c94d040894ae2d6586a07ce20a930047b92f15e17396b9",
+                "fetchedAt": "2026-11-23T02:50:12Z"
+            },
+            "lastCheckedAt": "2026-11-23T02:55:24Z",
+            "lastError": null,
+            "history": [
+                {
+                    "version": "4.2.3",
+                    "previousVersion": null,
+                    "updated": 1793927618,
+                    "recentChanges": "本バージョンでは下記対応を行いました。\n・セキュリティ対策を実施しました。\n・画面表示と動作の安定性を改善しました。\n・弾幕共有機能を終了しました。端末内の弾幕表示は引き続き利用できます。\n・利用時間などの上限設定を見直しました。",
+                    "changelogHash": "sha256:ab0c355ec214985c19c94d040894ae2d6586a07ce20a930047b92f15e17396b9",
+                    "fetchedAt": "2026-11-23T02:50:12Z",
+                    "gapSuspected": false,
+                    "versionCompare": "parsed"
+                }
+            ]
+        },
+        "com.yysystem.YYSpeechAssessment": {
+            "title": "YY発音分析 - 音声認識を使って発話分析 -",
+            "url": "https://apps.apple.com/jp/app/yy%E7%99%BA%E9%9F%B3%E5%88%86%E6%9E%90-%E9%9F%B3%E5%A3%B0%E8%AA%8D%E8%AD%98%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E7%99%BA%E8%A9%B1%E5%88%86%E6%9E%90/id6478858570?uo=4",
+            "developer": "EQUOS RESEARCH CO.,LTD.",
+            "latest": {
+                "version": "2.5.7",
+                "updated": 1794337822,
+                "recentChanges": "本バージョンでは下記対応を行いました。\n・マイクの使用が許可されていない場合の確認と案内を改善\n・内部的品質改善",
+                "changelogHash": "sha256:5615d9a99649ab318804b26d392163c93efcba0679ddf5be3220bb860b573ab2",
+                "fetchedAt": "2026-11-23T02:50:14Z"
+            },
+            "lastCheckedAt": "2026-11-23T02:55:25Z",
+            "lastError": null,
+            "history": [
+                {
+                    "version": "2.5.7",
+                    "previousVersion": null,
+                    "updated": 1794337822,
+                    "recentChanges": "本バージョンでは下記対応を行いました。\n・マイクの使用が許可されていない場合の確認と案内を改善\n・内部的品質改善",
+                    "changelogHash": "sha256:5615d9a99649ab318804b26d392163c93efcba0679ddf5be3220bb860b573ab2",
+                    "fetchedAt": "2026-11-23T02:50:14Z",
+                    "gapSuspected": false,
+                    "versionCompare": "parsed"
+                }
+            ]
+        },
+        "com.yysystem.YYCommCards": {
+            "title": "YYCommCards",
+            "url": "https://apps.apple.com/jp/app/yycommcards/id6757507407?uo=4",
+            "developer": "EQUOS RESEARCH CO.,LTD.",
+            "latest": {
+                "version": "1.2.6",
+                "updated": 1786116190,
+                "recentChanges": "本バージョンでは下記対応を行いました。\n・緊急時に「助けて / HELP」を大きく表示し、音と声で周囲に知らせるSOSカードを追加しました。\n　SOSカードは、音を出さずに表示することもできます。",
+                "changelogHash": "sha256:453a00eac99084f74f5acc59b6e0b6d79651661d0b12772408a03c4b9a748c7a",
+                "fetchedAt": "2026-11-23T02:50:15Z"
+            },
+            "lastCheckedAt": "2026-11-23T02:55:26Z",
+            "lastError": null,
+            "history": [
+                {
+                    "version": "1.2.6",
+                    "previousVersion": null,
+                    "updated": 1786116190,
+                    "recentChanges": "本バージョンでは下記対応を行いました。\n・緊急時に「助けて / HELP」を大きく表示し、音と声で周囲に知らせるSOSカードを追加しました。\n　SOSカードは、音を出さずに表示することもできます。",
+                    "changelogHash": "sha256:453a00eac99084f74f5acc59b6e0b6d79651661d0b12772408a03c4b9a748c7a",
+                    "fetchedAt": "2026-11-23T02:50:15Z",
                     "gapSuspected": false,
                     "versionCompare": "parsed"
                 }
