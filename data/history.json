@@ -12,7 +12,7 @@
                 "changelogHash": "sha256:5c539a0c669404ca1970b7cac89c8710ef1a937dd0e8e8066164ad3e2c505f69",
                 "fetchedAt": "2026-11-19T22:36:45Z"
             },
-            "lastCheckedAt": "2026-11-24T02:03:21Z",
+            "lastCheckedAt": "2026-11-24T23:47:27Z",
             "lastError": null,
             "history": [
                 {
@@ -72,13 +72,13 @@
             "url": "https://play.google.com/store/apps/details?id=yytranscript.yysystem.android&hl=ja&gl=jp",
             "developer": "YYSYSTEM",
             "latest": {
-                "version": "2.9.2",
-                "updated": 1793956113,
-                "recentChanges": "以下の内容に対応しています。\n・セキュリティ対策",
-                "changelogHash": "sha256:f27b5bc680ba3a3f497f20dee3c1faa2a6d874fc5f152354c2b3684011b18aa9",
-                "fetchedAt": "2026-11-06T20:44:34Z"
+                "version": "2.9.3",
+                "updated": 1795078747,
+                "recentChanges": "以下の内容に対応しています。\n・AiLENSのシアターモード対応\n※最新版のAiLENSのFWが必要です",
+                "changelogHash": "sha256:5c539a0c669404ca1970b7cac89c8710ef1a937dd0e8e8066164ad3e2c505f69",
+                "fetchedAt": "2026-11-24T23:47:27Z"
             },
-            "lastCheckedAt": "2026-11-24T02:03:21Z",
+            "lastCheckedAt": "2026-11-24T23:47:27Z",
             "lastError": null,
             "history": [
                 {
@@ -140,6 +140,16 @@
                     "fetchedAt": "2026-11-06T20:44:34Z",
                     "gapSuspected": false,
                     "versionCompare": "parsed"
+                },
+                {
+                    "version": "2.9.3",
+                    "previousVersion": "2.9.2",
+                    "updated": 1795078747,
+                    "recentChanges": "以下の内容に対応しています。\n・AiLENSのシアターモード対応\n※最新版のAiLENSのFWが必要です",
+                    "changelogHash": "sha256:5c539a0c669404ca1970b7cac89c8710ef1a937dd0e8e8066164ad3e2c505f69",
+                    "fetchedAt": "2026-11-24T23:47:27Z",
+                    "gapSuspected": false,
+                    "versionCompare": "parsed"
                 }
             ]
         },
@@ -154,7 +164,7 @@
                 "changelogHash": "sha256:3cf927193dcb59ce366869e5ac398cfda1ad1c3e3eac2c46f2315b88103f1c61",
                 "fetchedAt": "2026-11-06T20:44:40Z"
             },
-            "lastCheckedAt": "2026-11-24T02:03:32Z",
+            "lastCheckedAt": "2026-11-24T23:47:38Z",
             "lastError": null,
             "history": [
                 {
@@ -204,13 +214,13 @@
             "url": "https://apps.apple.com/jp/app/yyprobe-%E4%BC%9A%E8%A9%B1%E3%81%AE%E5%8F%AF%E8%A6%96%E5%8C%96%E3%82%A2%E3%83%97%E3%83%AA/id1493896577?uo=4",
             "developer": "EQUOS RESEARCH CO.,LTD.",
             "latest": {
-                "version": "9.7.1",
-                "updated": 1795133976,
-                "recentChanges": "本バージョンでは下記対応を行いました。\n\n・AiLENSにシアターモード機能を追加しました。\n（ファームウェアバージョン10.7.13以上が必要です）",
-                "changelogHash": "sha256:145c66f3b3ca7f2b0fbcc8d73571e2b504a777c23b87883c88cbe701c8856fbc",
-                "fetchedAt": "2026-11-21T20:49:45Z"
+                "version": "9.7.2",
+                "updated": 1795553603,
+                "recentChanges": "本バージョンでは下記対応を行いました。\n\n・辞書の適用処理を改善しました。\n・内部的な品質を改善しました。",
+                "changelogHash": "sha256:6709c3c3b5ad10998f6c11415af9bf2279993327949b08b1cb19878424826bff",
+                "fetchedAt": "2026-11-24T23:47:28Z"
             },
-            "lastCheckedAt": "2026-11-24T02:03:22Z",
+            "lastCheckedAt": "2026-11-24T23:47:28Z",
             "lastError": null,
             "history": [
                 {
@@ -372,6 +382,16 @@
                     "fetchedAt": "2026-11-21T20:49:45Z",
                     "gapSuspected": false,
                     "versionCompare": "parsed"
+                },
+                {
+                    "version": "9.7.2",
+                    "previousVersion": "9.7.1",
+                    "updated": 1795553603,
+                    "recentChanges": "本バージョンでは下記対応を行いました。\n\n・辞書の適用処理を改善しました。\n・内部的な品質を改善しました。",
+                    "changelogHash": "sha256:6709c3c3b5ad10998f6c11415af9bf2279993327949b08b1cb19878424826bff",
+                    "fetchedAt": "2026-11-24T23:47:28Z",
+                    "gapSuspected": false,
+                    "versionCompare": "parsed"
                 }
             ]
         },
@@ -380,13 +400,13 @@
             "url": "https://apps.apple.com/jp/app/yy%E6%96%87%E5%AD%97%E8%B5%B7%E3%81%93%E3%81%97-%E9%AB%98%E6%80%A7%E8%83%BD%E3%81%A7%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%AA%E6%96%87%E5%AD%97%E8%B5%B7%E3%81%93%E3%81%97%E3%82%A2%E3%83%97%E3%83%AA/id1570419146?uo=4",
             "developer": "EQUOS RESEARCH CO.,LTD.",
             "latest": {
-                "version": "18.24.4",
-                "updated": 1795459536,
-                "recentChanges": "対応するiPhoneで「おとコンパス」が使えるようになりました。声の方向を画面の縁に光で示す「外周バー表示」と「コンパス表示」を、文字起こし中も切り替えられます。外周バーは好きな色やレインボーを選べます。\n\nおとコンパス用の音声入力を開始できない場合や、利用中にマイク入力が変わったり中断したりした場合は、その回だけ通常のマイクで文字起こしを続けられるよう切り替えを試みます。外周の光は画面の内側に広げ、ケースを付けても見やすくしました。",
-                "changelogHash": "sha256:18a008d637844104c4020fcfd8c40ef1cf8484088f171f765b9e29beda1c2235",
-                "fetchedAt": "2026-11-24T02:03:23Z"
+                "version": "18.24.5",
+                "updated": 1795534635,
+                "recentChanges": "おとコンパス使用時の音声入力の安定性を改善しました。他のアプリが音声を再生しているときなどに方向検知が使えない場合は、通常のマイクへの切り替えを試みます。",
+                "changelogHash": "sha256:25d2ea44b36b86da441b49af5741268bd9ccb3a6d5e0233dab118f2eec9646e1",
+                "fetchedAt": "2026-11-24T23:47:30Z"
             },
-            "lastCheckedAt": "2026-11-24T02:03:23Z",
+            "lastCheckedAt": "2026-11-24T23:47:30Z",
             "lastError": null,
             "history": [
                 {
@@ -568,6 +588,16 @@
                     "fetchedAt": "2026-11-24T02:03:23Z",
                     "gapSuspected": true,
                     "versionCompare": "parsed"
+                },
+                {
+                    "version": "18.24.5",
+                    "previousVersion": "18.24.4",
+                    "updated": 1795534635,
+                    "recentChanges": "おとコンパス使用時の音声入力の安定性を改善しました。他のアプリが音声を再生しているときなどに方向検知が使えない場合は、通常のマイクへの切り替えを試みます。",
+                    "changelogHash": "sha256:25d2ea44b36b86da441b49af5741268bd9ccb3a6d5e0233dab118f2eec9646e1",
+                    "fetchedAt": "2026-11-24T23:47:30Z",
+                    "gapSuspected": false,
+                    "versionCompare": "parsed"
                 }
             ]
         },
@@ -582,7 +612,7 @@
                 "changelogHash": "sha256:145c66f3b3ca7f2b0fbcc8d73571e2b504a777c23b87883c88cbe701c8856fbc",
                 "fetchedAt": "2026-11-21T20:49:47Z"
             },
-            "lastCheckedAt": "2026-11-24T02:03:25Z",
+            "lastCheckedAt": "2026-11-24T23:47:31Z",
             "lastError": null,
             "history": [
                 {
@@ -718,7 +748,7 @@
                 "changelogHash": "sha256:eb9dfca399b36b93041a73732965e7ef1300c09929b026847d794c07b813f227",
                 "fetchedAt": "2026-11-23T02:50:11Z"
             },
-            "lastCheckedAt": "2026-11-24T02:03:26Z",
+            "lastCheckedAt": "2026-11-24T23:47:32Z",
             "lastError": null,
             "history": [
                 {
@@ -744,7 +774,7 @@
                 "changelogHash": "sha256:ab0c355ec214985c19c94d040894ae2d6586a07ce20a930047b92f15e17396b9",
                 "fetchedAt": "2026-11-23T02:50:12Z"
             },
-            "lastCheckedAt": "2026-11-24T02:03:27Z",
+            "lastCheckedAt": "2026-11-24T23:47:33Z",
             "lastError": null,
             "history": [
                 {
@@ -770,7 +800,7 @@
                 "changelogHash": "sha256:5615d9a99649ab318804b26d392163c93efcba0679ddf5be3220bb860b573ab2",
                 "fetchedAt": "2026-11-23T02:50:14Z"
             },
-            "lastCheckedAt": "2026-11-24T02:03:28Z",
+            "lastCheckedAt": "2026-11-24T23:47:35Z",
             "lastError": null,
             "history": [
                 {
@@ -796,7 +826,7 @@
                 "changelogHash": "sha256:453a00eac99084f74f5acc59b6e0b6d79651661d0b12772408a03c4b9a748c7a",
                 "fetchedAt": "2026-11-23T02:50:15Z"
             },
-            "lastCheckedAt": "2026-11-24T02:03:30Z",
+            "lastCheckedAt": "2026-11-24T23:47:36Z",
             "lastError": null,
             "history": [
                 {
