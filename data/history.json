@@ -12,7 +12,7 @@
                 "changelogHash": "sha256:5c539a0c669404ca1970b7cac89c8710ef1a937dd0e8e8066164ad3e2c505f69",
                 "fetchedAt": "2026-11-19T22:36:45Z"
             },
-            "lastCheckedAt": "2026-11-24T23:47:27Z",
+            "lastCheckedAt": "2026-11-25T23:29:40Z",
             "lastError": null,
             "history": [
                 {
@@ -78,7 +78,7 @@
                 "changelogHash": "sha256:5c539a0c669404ca1970b7cac89c8710ef1a937dd0e8e8066164ad3e2c505f69",
                 "fetchedAt": "2026-11-24T23:47:27Z"
             },
-            "lastCheckedAt": "2026-11-24T23:47:27Z",
+            "lastCheckedAt": "2026-11-25T23:29:40Z",
             "lastError": null,
             "history": [
                 {
@@ -164,7 +164,7 @@
                 "changelogHash": "sha256:3cf927193dcb59ce366869e5ac398cfda1ad1c3e3eac2c46f2315b88103f1c61",
                 "fetchedAt": "2026-11-06T20:44:40Z"
             },
-            "lastCheckedAt": "2026-11-24T23:47:38Z",
+            "lastCheckedAt": "2026-11-25T23:29:51Z",
             "lastError": null,
             "history": [
                 {
@@ -220,7 +220,7 @@
                 "changelogHash": "sha256:6709c3c3b5ad10998f6c11415af9bf2279993327949b08b1cb19878424826bff",
                 "fetchedAt": "2026-11-24T23:47:28Z"
             },
-            "lastCheckedAt": "2026-11-24T23:47:28Z",
+            "lastCheckedAt": "2026-11-25T23:29:42Z",
             "lastError": null,
             "history": [
                 {
@@ -406,7 +406,7 @@
                 "changelogHash": "sha256:25d2ea44b36b86da441b49af5741268bd9ccb3a6d5e0233dab118f2eec9646e1",
                 "fetchedAt": "2026-11-24T23:47:30Z"
             },
-            "lastCheckedAt": "2026-11-24T23:47:30Z",
+            "lastCheckedAt": "2026-11-25T23:29:43Z",
             "lastError": null,
             "history": [
                 {
@@ -612,7 +612,7 @@
                 "changelogHash": "sha256:145c66f3b3ca7f2b0fbcc8d73571e2b504a777c23b87883c88cbe701c8856fbc",
                 "fetchedAt": "2026-11-21T20:49:47Z"
             },
-            "lastCheckedAt": "2026-11-24T23:47:31Z",
+            "lastCheckedAt": "2026-11-25T23:29:44Z",
             "lastError": null,
             "history": [
                 {
@@ -748,7 +748,7 @@
                 "changelogHash": "sha256:eb9dfca399b36b93041a73732965e7ef1300c09929b026847d794c07b813f227",
                 "fetchedAt": "2026-11-23T02:50:11Z"
             },
-            "lastCheckedAt": "2026-11-24T23:47:32Z",
+            "lastCheckedAt": "2026-11-25T23:29:45Z",
             "lastError": null,
             "history": [
                 {
@@ -774,7 +774,7 @@
                 "changelogHash": "sha256:ab0c355ec214985c19c94d040894ae2d6586a07ce20a930047b92f15e17396b9",
                 "fetchedAt": "2026-11-23T02:50:12Z"
             },
-            "lastCheckedAt": "2026-11-24T23:47:33Z",
+            "lastCheckedAt": "2026-11-25T23:29:47Z",
             "lastError": null,
             "history": [
                 {
@@ -800,7 +800,7 @@
                 "changelogHash": "sha256:5615d9a99649ab318804b26d392163c93efcba0679ddf5be3220bb860b573ab2",
                 "fetchedAt": "2026-11-23T02:50:14Z"
             },
-            "lastCheckedAt": "2026-11-24T23:47:35Z",
+            "lastCheckedAt": "2026-11-25T23:29:48Z",
             "lastError": null,
             "history": [
                 {
@@ -826,7 +826,7 @@
                 "changelogHash": "sha256:453a00eac99084f74f5acc59b6e0b6d79651661d0b12772408a03c4b9a748c7a",
                 "fetchedAt": "2026-11-23T02:50:15Z"
             },
-            "lastCheckedAt": "2026-11-24T23:47:36Z",
+            "lastCheckedAt": "2026-11-25T23:29:49Z",
             "lastError": null,
             "history": [
                 {
