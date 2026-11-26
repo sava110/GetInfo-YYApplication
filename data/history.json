@@ -12,7 +12,7 @@
                 "changelogHash": "sha256:5c539a0c669404ca1970b7cac89c8710ef1a937dd0e8e8066164ad3e2c505f69",
                 "fetchedAt": "2026-11-19T22:36:45Z"
             },
-            "lastCheckedAt": "2026-11-25T23:29:40Z",
+            "lastCheckedAt": "2026-11-26T23:34:08Z",
             "lastError": null,
             "history": [
                 {
@@ -78,7 +78,7 @@
                 "changelogHash": "sha256:5c539a0c669404ca1970b7cac89c8710ef1a937dd0e8e8066164ad3e2c505f69",
                 "fetchedAt": "2026-11-24T23:47:27Z"
             },
-            "lastCheckedAt": "2026-11-25T23:29:40Z",
+            "lastCheckedAt": "2026-11-26T23:34:08Z",
             "lastError": null,
             "history": [
                 {
@@ -164,7 +164,7 @@
                 "changelogHash": "sha256:3cf927193dcb59ce366869e5ac398cfda1ad1c3e3eac2c46f2315b88103f1c61",
                 "fetchedAt": "2026-11-06T20:44:40Z"
             },
-            "lastCheckedAt": "2026-11-25T23:29:51Z",
+            "lastCheckedAt": "2026-11-26T23:34:19Z",
             "lastError": null,
             "history": [
                 {
@@ -220,7 +220,7 @@
                 "changelogHash": "sha256:6709c3c3b5ad10998f6c11415af9bf2279993327949b08b1cb19878424826bff",
                 "fetchedAt": "2026-11-24T23:47:28Z"
             },
-            "lastCheckedAt": "2026-11-25T23:29:42Z",
+            "lastCheckedAt": "2026-11-26T23:34:09Z",
             "lastError": null,
             "history": [
                 {
@@ -400,13 +400,13 @@
             "url": "https://apps.apple.com/jp/app/yy%E6%96%87%E5%AD%97%E8%B5%B7%E3%81%93%E3%81%97-%E9%AB%98%E6%80%A7%E8%83%BD%E3%81%A7%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%AA%E6%96%87%E5%AD%97%E8%B5%B7%E3%81%93%E3%81%97%E3%82%A2%E3%83%97%E3%83%AA/id1570419146?uo=4",
             "developer": "EQUOS RESEARCH CO.,LTD.",
             "latest": {
-                "version": "18.24.5",
-                "updated": 1795534635,
-                "recentChanges": "おとコンパス使用時の音声入力の安定性を改善しました。他のアプリが音声を再生しているときなどに方向検知が使えない場合は、通常のマイクへの切り替えを試みます。",
-                "changelogHash": "sha256:25d2ea44b36b86da441b49af5741268bd9ccb3a6d5e0233dab118f2eec9646e1",
-                "fetchedAt": "2026-11-24T23:47:30Z"
+                "version": "18.24.9",
+                "updated": 1795730487,
+                "recentChanges": "本バージョンでは下記対応を行いました。\n・利用規約を更新しました。\n・おとコンパスとAiLENSやBluetooth機器を併用した際に、音声認識を開始すると音声が入力されず、音声認識が行われなくなる問題を修正しました。",
+                "changelogHash": "sha256:62bed072b4ece26d2f829715dad37e40e0cd526fc6d0a5e6b69ecdeaeab2f42c",
+                "fetchedAt": "2026-11-26T23:34:10Z"
             },
-            "lastCheckedAt": "2026-11-25T23:29:43Z",
+            "lastCheckedAt": "2026-11-26T23:34:10Z",
             "lastError": null,
             "history": [
                 {
@@ -598,6 +598,16 @@
                     "fetchedAt": "2026-11-24T23:47:30Z",
                     "gapSuspected": false,
                     "versionCompare": "parsed"
+                },
+                {
+                    "version": "18.24.9",
+                    "previousVersion": "18.24.5",
+                    "updated": 1795730487,
+                    "recentChanges": "本バージョンでは下記対応を行いました。\n・利用規約を更新しました。\n・おとコンパスとAiLENSやBluetooth機器を併用した際に、音声認識を開始すると音声が入力されず、音声認識が行われなくなる問題を修正しました。",
+                    "changelogHash": "sha256:62bed072b4ece26d2f829715dad37e40e0cd526fc6d0a5e6b69ecdeaeab2f42c",
+                    "fetchedAt": "2026-11-26T23:34:10Z",
+                    "gapSuspected": true,
+                    "versionCompare": "parsed"
                 }
             ]
         },
@@ -612,7 +622,7 @@
                 "changelogHash": "sha256:145c66f3b3ca7f2b0fbcc8d73571e2b504a777c23b87883c88cbe701c8856fbc",
                 "fetchedAt": "2026-11-21T20:49:47Z"
             },
-            "lastCheckedAt": "2026-11-25T23:29:44Z",
+            "lastCheckedAt": "2026-11-26T23:34:12Z",
             "lastError": null,
             "history": [
                 {
@@ -748,7 +758,7 @@
                 "changelogHash": "sha256:eb9dfca399b36b93041a73732965e7ef1300c09929b026847d794c07b813f227",
                 "fetchedAt": "2026-11-23T02:50:11Z"
             },
-            "lastCheckedAt": "2026-11-25T23:29:45Z",
+            "lastCheckedAt": "2026-11-26T23:34:13Z",
             "lastError": null,
             "history": [
                 {
@@ -768,13 +778,13 @@
             "url": "https://apps.apple.com/jp/app/yy%E9%9B%B0%E5%9B%B2%E6%B0%97%E3%82%AB%E3%83%A1%E3%83%A9/id1625840619?uo=4",
             "developer": "EQUOS RESEARCH CO.,LTD.",
             "latest": {
-                "version": "4.2.3",
-                "updated": 1793927618,
-                "recentChanges": "本バージョンでは下記対応を行いました。\n・セキュリティ対策を実施しました。\n・画面表示と動作の安定性を改善しました。\n・弾幕共有機能を終了しました。端末内の弾幕表示は引き続き利用できます。\n・利用時間などの上限設定を見直しました。",
-                "changelogHash": "sha256:ab0c355ec214985c19c94d040894ae2d6586a07ce20a930047b92f15e17396b9",
-                "fetchedAt": "2026-11-23T02:50:12Z"
+                "version": "4.2.4",
+                "updated": 1795734707,
+                "recentChanges": "本バージョンでは下記対応を行いました。\n・利用規約を改訂しました",
+                "changelogHash": "sha256:60b6a4efc6ade2ee4cbc03898222a8cafce6da4e3156f59e7f82e387c21f86c7",
+                "fetchedAt": "2026-11-26T23:34:14Z"
             },
-            "lastCheckedAt": "2026-11-25T23:29:47Z",
+            "lastCheckedAt": "2026-11-26T23:34:14Z",
             "lastError": null,
             "history": [
                 {
@@ -784,6 +794,16 @@
                     "recentChanges": "本バージョンでは下記対応を行いました。\n・セキュリティ対策を実施しました。\n・画面表示と動作の安定性を改善しました。\n・弾幕共有機能を終了しました。端末内の弾幕表示は引き続き利用できます。\n・利用時間などの上限設定を見直しました。",
                     "changelogHash": "sha256:ab0c355ec214985c19c94d040894ae2d6586a07ce20a930047b92f15e17396b9",
                     "fetchedAt": "2026-11-23T02:50:12Z",
+                    "gapSuspected": false,
+                    "versionCompare": "parsed"
+                },
+                {
+                    "version": "4.2.4",
+                    "previousVersion": "4.2.3",
+                    "updated": 1795734707,
+                    "recentChanges": "本バージョンでは下記対応を行いました。\n・利用規約を改訂しました",
+                    "changelogHash": "sha256:60b6a4efc6ade2ee4cbc03898222a8cafce6da4e3156f59e7f82e387c21f86c7",
+                    "fetchedAt": "2026-11-26T23:34:14Z",
                     "gapSuspected": false,
                     "versionCompare": "parsed"
                 }
@@ -800,7 +820,7 @@
                 "changelogHash": "sha256:5615d9a99649ab318804b26d392163c93efcba0679ddf5be3220bb860b573ab2",
                 "fetchedAt": "2026-11-23T02:50:14Z"
             },
-            "lastCheckedAt": "2026-11-25T23:29:48Z",
+            "lastCheckedAt": "2026-11-26T23:34:15Z",
             "lastError": null,
             "history": [
                 {
@@ -826,7 +846,7 @@
                 "changelogHash": "sha256:453a00eac99084f74f5acc59b6e0b6d79651661d0b12772408a03c4b9a748c7a",
                 "fetchedAt": "2026-11-23T02:50:15Z"
             },
-            "lastCheckedAt": "2026-11-25T23:29:49Z",
+            "lastCheckedAt": "2026-11-26T23:34:16Z",
             "lastError": null,
             "history": [
                 {
